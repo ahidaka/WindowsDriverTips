@@ -20,3 +20,5 @@ In summary, here are some important points.
 - Understand how to operate Device Manager
 - Utilize driver store
 - When updating the driver, select "Add" instead of "Delete" if possible.
+
+#### [Japanese version](README_ja.md)
