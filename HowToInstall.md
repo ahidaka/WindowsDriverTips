@@ -161,7 +161,7 @@ The device-first procedure installs quickly. Displays the status of all INFs tha
 <br/>
 (Drivers successfully installed dialog)
 
-### PnPUtil コマンド
+### PnPUtil command
 
 You can install driver packages using the driver-first procedure from a command prompt using the PnPUtil command included in Windows.
 
