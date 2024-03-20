@@ -163,13 +163,13 @@ The device-first procedure installs quickly. Displays the status of all INFs tha
 
 ### PnPUtil コマンド
 
-Windows 10などではコマンドプロンプトから、Windowsに含まれるPnPUtil コマンドでドライバーパッケージをドライバーファーストでインストール可能です。
+You can install driver packages using the driver-first procedure from a command prompt using the PnPUtil command included in Windows.
 
 ```cmd
 > pnputil /add-driver NewDriver.inf
 ```
  
-[参考リンク：PnPUtil のコマンド構文](https://learn.microsoft.com/windows-hardware/drivers/devtest/pnputil-command-syntax?WT.mc_id=WDIT-MVP-35878)
+[Reference link: PnPUtil command syntax](https://learn.microsoft.com/windows-hardware/drivers/devtest/pnputil-command-syntax?WT.mc_id=WDIT-MVP-35878)
 
 [https://learn.microsoft.com/ja-jp/windows-hardware/drivers/devtest/pnputil-command-syntax](https://learn.microsoft.com/windows-hardware/drivers/devtest/pnputil-command-syntax?WT.mc_id=WDIT-MVP-35878)
 <br/>
@@ -184,6 +184,6 @@ For many drivers of this type of dedicated driver architecture, you may install 
 
 This is an offline method to install necessary drivers before installing Windows, such as drivers for storage devices used with the C: drive. Used as a means to install drivers for storage controller boards that are not included in the Windows installation media.
 
-[Reference link](https://learn.microsoft.com/mem/configmgr/develop/osd/how-to-import-a-windows-driver-described-by-a-txtsetup-oem-file?WT.mc_id=WDIT-MVP-35878)
+[Reference link: Txtsetup.oem File](https://learn.microsoft.com/mem/configmgr/develop/osd/how-to-import-a-windows-driver-described-by-a-txtsetup-oem-file?WT.mc_id=WDIT-MVP-35878)
 
 [https://learn.microsoft.com/mem/configmgr/develop/osd/how-to-import-a-windows-driver-described-by-a-txtsetup-oem-file](https://learn.microsoft.com/mem/configmgr/develop/osd/how-to-import-a-windows-driver-described-by-a-txtsetup-oem-file?WT.mc_id=WDIT-MVP-35878)
