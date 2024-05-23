@@ -1,0 +1,4936 @@
+$ git log
+commit c19f2e4cffadef34105407da20108ec2f196ac53 (HEAD -> main, origin/main, origin/HEAD)
+Merge: ba0a57a5 8fad20e7
+Author: Jacob Ronstadt <147542405+jacob-ronstadt@users.noreply.github.com>
+Date:   Wed May 22 14:11:59 2024 -0700
+
+    Merge pull request #1172 from jacob-ronstadt/jacob-ronstadt/config
+
+    update configuration_vsonly.dsc.yaml for 26100
+
+commit 8fad20e70a995936f36af3a38cd4943d0f745a41
+Author: jacob-ronstadt <jacobronstadt@pm.me>
+Date:   Wed May 22 13:08:39 2024 -0700
+
+    remove winget install of sdk from configuration_vsonly.dsc.yaml
+
+commit ff1da89cc034eda1b4df9b68af093c3c51b30af8
+Author: jacob-ronstadt <jacobronstadt@pm.me>
+Date:   Wed May 22 10:44:15 2024 -0700
+
+    update configuration_vsonly.dsc.yaml for 26100
+
+commit ba0a57a50f9995610e909492aa3a1df9d6c51f70 (origin/develop)
+Merge: 2e725348 1803c6f2
+Author: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+Date:   Wed May 22 09:21:32 2024 -0700
+
+    Merge branch 'main' into develop
+
+commit 1803c6f213fd986b503ec0b9ac272d60fc4fb1f5
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Wed May 22 09:08:12 2024 -0700
+
+    develop to main (#1171)
+
+    * Init commit
+
+    * Upgrade NuGet to 26100.1 (#1162)
+
+    * Upgrade NuGet to 10.0.26100.1-preview.ge-release
+
+    * Upgrade NuGet to 10.0.26100.2 pre
+
+    * Upgrade NuGet to 10.0.26100
+
+    * Upgrade NuGet to 10.0.26100.1
+
+    * Update Building-Locally.md
+
+    * Update Building-Locally.md
+
+    ---------
+
+    Co-authored-by: Phan Trinh Ha <23308647+thpthp1@users.noreply.github.com>
+
+commit 2e7253481b09ed926490aa1edb37afc70240202b
+Merge: 6edffd4b 38730054
+Author: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+Date:   Wed May 22 08:58:00 2024 -0700
+
+    Merge branch 'main' into develop
+
+commit 6edffd4b66aff103080aa1f3148815a8c9d827a9
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Wed May 22 08:56:48 2024 -0700
+
+    Upgrade NuGet to 26100.1 (#1162)
+
+    * Upgrade NuGet to 10.0.26100.1-preview.ge-release
+
+    * Upgrade NuGet to 10.0.26100.2 pre
+
+    * Upgrade NuGet to 10.0.26100
+
+    * Upgrade NuGet to 10.0.26100.1
+
+    * Update Building-Locally.md
+
+    * Update Building-Locally.md
+
+commit 38730054734e5a36e330d317d844084d0def539e
+Merge: a74a241c b96e35c9
+Author: Jacob Ronstadt <147542405+jacob-ronstadt@users.noreply.github.com>
+Date:   Wed May 22 08:29:15 2024 -0700
+
+    Merge pull request #1169 from jacob-ronstadt/jacob-ronstadt/config
+
+    Update configuration.dsc.yml for 26100
+
+commit b96e35c91b02c3d68f29e71b4fe312cb6badc660
+Author: jacob-ronstadt <jacobronstadt@pm.me>
+Date:   Mon May 20 15:29:40 2024 -0700
+
+    update configuration.dsc.yaml to account for different architectures
+
+commit 82837105b5d805ad986b69226397e871e66db4c9
+Author: jacob-ronstadt <jacobronstadt@pm.me>
+Date:   Fri May 17 15:11:12 2024 -0700
+
+    Update to use winget for sdk instead of visual studio component. Update path for vsix
+
+commit 8de2326fdc67978c0fa6e2c579eb76a20fbb419c
+Author: jacob-ronstadt <jacobronstadt@pm.me>
+Date:   Thu May 16 12:32:26 2024 -0700
+
+    update configuration.dsc.yml for 26100
+
+commit e62672f9193b18c30067e2a239839c8bc89d1346
+Author: Phan Trinh Ha <23308647+thpthp1@users.noreply.github.com>
+Date:   Wed May 8 16:15:16 2024 -0700
+
+    Init commit
+
+commit a74a241c664c4e1d7c0838287b34076c19d9858a
+Merge: def8e8e3 15477ce5
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon May 6 16:21:31 2024 -0700
+
+    Merge develop changes prior to upcoming WDK release (May 2024)
+
+commit 15477ce52bbb6b42ca591ecdfb484cac089f89ab
+Merge: 5e294673 def8e8e3
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon May 6 14:12:14 2024 -0700
+
+    Merge branch 'main' into develop
+
+commit def8e8e34ed2b7b1deb2fc9112ac4255f1a0f2ba
+Author: Jose Fernando Lopez Fernandez <166958257+jflopezfdez@users.noreply.github.com>
+Date:   Mon May 6 17:11:45 2024 -0400
+
+    [input/kbfiltr] Remove Boilerplate Text From Callout in Sample Keyboard Input Driver Doc (#1165)
+
+    The current version of the `README.md` file for the keyboard filter
+    driver sample erroneously includes what looks like boilerplate text
+    in the callout at the bottom of the file. This text explains to the
+    writer of the documentation what to include in the callout text, and
+    should therefore have been removed when the actual content was added.
+
+    This change simply removes this change from the callout text.
+
+commit 9615afcd51fcd53feb3e5496f77a47261d223acc
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon May 6 14:10:11 2024 -0700
+
+    Update CodeQL Actions to v3
+
+commit 5e294673ea88f715b21b655b7fa9857bb40b7ce8
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon May 6 14:08:25 2024 -0700
+
+    Delete ununsed files
+
+commit 1b58b0d98ec1cf22c800853b9c50a3a0449a6b6f
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Apr 26 15:31:09 2024 -0700
+
+    Revert "Filter NDP from code owner list for now"
+
+    This reverts commit 76e8fbba8bb0c5bfa9b7e1fcb407ba4f9b982419.
+
+commit 76e8fbba8bb0c5bfa9b7e1fcb407ba4f9b982419
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Apr 26 11:05:47 2024 -0700
+
+    Filter NDP from code owner list for now
+
+commit a1e25e421e0c8cecbf5787fbc628154e90c9e359
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Apr 26 11:04:10 2024 -0700
+
+    Add more code owners (NDP, Kernel Core)
+
+commit 0590208a249b26e28996c06787f3f90e01b141af
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Apr 25 17:25:14 2024 -0700
+
+    Add PnP as code owners
+
+commit e75cdef627c3dd9bc590ecf92ad238b0340386b8
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Wed Apr 24 18:08:42 2024 -0700
+
+    Update Building-Locally.md
+
+commit ca95cb5eeb3c113b46c7f9a6fbd9d45c68b0bfcd
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Thu Apr 18 17:33:50 2024 -0700
+
+    NuGet notes (#1120)
+
+    * NuGet notes
+
+    * Update Building-Locally.md
+
+    * Update Building-Locally.md: Update instructions for usb\usbview sample
+
+    * Update Building-Locally.md
+
+    * Update Building-Locally.md
+
+    * Update Building-Locally.md
+
+    * Update Building-Locally.md
+
+    * Update Building-Locally.md
+
+    * Update Building-Locally.md
+
+    * Update Building-Locally.md
+
+    * Update Building-Locally.md
+
+    * Update Building-Locally.md
+
+    * Update Building-Locally.md
+
+commit cf80a6daa740cf3af867e41dddd26f1012d552f5
+Author: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+Date:   Thu Apr 18 15:47:22 2024 -0700
+
+    Upgrade NuGet to 26095.2
+
+commit 29274858aa27e24fef094ac381cf55821eedd6b4
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Thu Apr 18 14:30:41 2024 -0700
+
+    Upgrade NuGet 26095.2 (#1161)
+
+    Upgrade NuGet to 26095.2
+
+commit 302d2171890af3082fbc1e62d79d5955eee92564
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Fri Apr 12 14:46:12 2024 -0700
+
+    Upgrade nuget to 26090.10 (#1159)
+
+    Upgrade NuGet to 26090.10
+
+commit 6fb23126d1194cc5fd11754e0cd86e2c20d3d7bf
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Thu Apr 11 14:25:54 2024 -0700
+
+    Upgrade nuget to 26090.8 (#1158)
+
+    Upgrade NuGet to 26090.8
+
+commit dc70be0e7c44e3175f2a0ce6c26945b69713b005
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Apr 11 13:50:43 2024 -0700
+
+    Add exclusion for network\trans\WFPSampler incompatible with previous EWDK; fix descriptions in list
+
+commit e48e1c44f24bc0a3e9f9ddefb1565740e26f0ba6
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Wed Apr 10 16:00:50 2024 -0700
+
+    [network/trans/WFPSampler] Fix driver target platform for service (#1157)
+
+commit a53b20b64f9c89b91f44cb30f755223c9b79453d
+Author: Keith Horton <khorton@microsoft.com>
+Date:   Thu Apr 4 17:20:14 2024 -0700
+
+    [network/trans/WFPSampler] Fix to build for all flavors (#1149)
+
+commit c4f6bd25731bf7765c40b7c6ad79c4f473d8fc93
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Apr 4 17:14:32 2024 -0700
+
+    Update code owners
+
+commit 04e03ee202c4ad752ca0f33f7b1d3b70ccb60106
+Author: AlbertGuan9527 <87043564+AlbertGuan9527@users.noreply.github.com>
+Date:   Tue Apr 2 16:10:01 2024 -0700
+
+    Add power limit policy and client sample driver (#1152)
+
+    This PR adds power limit policy and client driver as samples to use OS native power limit interfaces.
+
+commit 13d4792ee72883cf25ec5ffc2812c9c6d9933ef4
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Mon Mar 25 14:56:32 2024 -0700
+
+    Upgrade nuget to 26090 (#1145)
+
+    * Upgrade NuGet to 26090
+
+    * Update Build-SampleSet.ps1
+
+    * Update Build-SampleSet.ps1
+
+commit b5a831819b45104d389df709e6bc00ee117906f3
+Author: Enya Quetzalli <62947298+equetzal@users.noreply.github.com>
+Date:   Thu Mar 21 16:30:19 2024 -0700
+
+    [WDI Sample] Refactoring Platform File IO ops to use WDM calls (#1142)
+
+commit 443c6c24b0f5949daa31fb537449ac63460d1575
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Sat Mar 16 16:36:30 2024 -0700
+
+    Upgrade nuget to 26085 (#1143)
+
+    * Update to WDK NuGet 26085
+
+    * Update to WDK NuGet 26085
+
+    ---------
+
+    Co-authored-by: Jakob Lichtenberg <jakobl@ntdev.microsoft.com>
+
+commit dcf36200862b796412710aca87c37219f20e1a5b
+Author: Keith Horton <khorton@microsoft.com>
+Date:   Thu Mar 14 14:40:14 2024 -0700
+
+    Revert "Fixing the WFP Sampler build"
+
+    This reverts commit 362c44aef8e9046f21a4c653ed582110765294dc.
+
+commit 362c44aef8e9046f21a4c653ed582110765294dc
+Author: Keith Horton <khorton@microsoft.com>
+Date:   Wed Mar 13 19:29:31 2024 -0700
+
+    Fixing the WFP Sampler build
+
+commit e14874699db0ffc6325147a61a4ef3ddae93f037
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Sat Mar 9 10:47:17 2024 -0800
+
+     Update to WDK NuGet 26080 (#1139)
+
+    * Update to WDK NuGet 26080
+
+    * Update to WDK NuGet 26080
+
+    * Update to WDK NuGet 26080
+
+    ---------
+
+    Co-authored-by: Jakob Lichtenberg <jakobl@ntdev.microsoft.com>
+
+commit ff528e8ce20d25bc8ba2cb89203399cacd51a13d
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Mar 7 16:02:48 2024 -0800
+
+    Configuration manifests now install latest VS and WDK
+
+commit bac07ee8ca1d08d8de45a898088a4321d0f5000a
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Mar 7 16:01:59 2024 -0800
+
+    Add Wi-Fi Core as owners
+
+commit 00b123014ca60925644850f6ba1860c7466943bf
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Mar 7 15:16:09 2024 -0800
+
+    Update VS DSC in configuration manifests
+
+commit bcc5c139181f66514b6767238f850f5b2d3aabd1
+Author: Jacob Ronstadt <147542405+jacob-ronstadt@users.noreply.github.com>
+Date:   Tue Mar 5 17:30:57 2024 -0800
+
+    Update jobs to use Node.js 20 (#1134)
+
+    * Update Code-Scanning.yml actions/checkout to v4 and microsoft/setup-msbuild to v2
+    * Update ci-pr.yml to use node20
+    * Update ci.yml to use node20
+
+commit c7ef047d05ca856a04fe542739ea99d28913ae6e
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Sun Mar 3 14:27:50 2024 -0800
+
+    Update to WDK NuGet 26074 (#1133)
+
+    Co-authored-by: Jakob Lichtenberg <jakobl@ntdev.microsoft.com>
+
+commit d1c58567a7ff9af51a7688a798a7327ce10b0b0a
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Mon Feb 26 16:39:33 2024 -0800
+
+    Update to WDK NuGet 26068 (#1129)
+
+    Co-authored-by: Jakob Lichtenberg <jakobl@ntdev.microsoft.com>
+
+commit 3fcc0f2bee2fbd40fe953ecbcb15b2bd8b0d3eb9
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Feb 26 09:47:25 2024 -0800
+
+    Remove x86 and ARM configurations for sample projects. (#1126)
+
+    * Removed Win32 and Arm from the project configurations.
+    * Set default platform to x64.
+
+commit 9428a1d6a431c08166afa814a1046249b2e5962a
+Merge: 655b14dd b968cfbe
+Author: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+Date:   Mon Feb 26 08:42:22 2024 -0800
+
+    Merge main to develop (empty merge)
+
+commit b968cfbed5566a3a9597f5368334beb3b6dad4d2
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Mon Feb 26 08:40:07 2024 -0800
+
+    Merge tools in develop to main (#1128)
+
+    * Merge tools in develop to main
+
+    * Fine tune testenv
+
+commit 655b14dd5907237f79edc312988cebe2180fd18b
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Sun Feb 25 18:20:47 2024 -0800
+
+    Upgrade nuget to 26066 (#1127)
+
+    Update to WDK NuGet 26066
+
+    Co-authored-by: Jakob Lichtenberg <jakobl@ntdev.microsoft.com>
+
+commit 8daf2be4e9c294ede7b62da67155de63f0d59f19
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Feb 22 11:00:09 2024 -0800
+
+    Add ARM64 support on remaining network samples. (#1125)
+
+    * Added ARM64 as a new project configuration in both Debug and Release modes.
+    * Set up properties for the ARM64 platform, including target version, debug libraries, driver target platform, driver type, and platform toolset.
+    * Included additional dependencies for the ARM64 build.
+    * Added ARM64 to the list of platforms for which the mux.dll file is packaged.
+    * Remove /CETCOMPAT as it's not compatible with ARM64
+
+commit cfeff01cef9b504195cee104fc67eee4e1834811
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Tue Feb 20 23:44:03 2024 -0800
+
+    Fix TrEE Sample (#1124)
+
+    * Fix TrEE sample
+
+    * Fix TrEE sample
+
+commit ee0a1ee73dde5be876dbd25ee5ab4b467530a215
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Tue Feb 20 23:41:46 2024 -0800
+
+    Build System: Catch Sporadic Failures (#1123)
+
+    * Build System: Catch Sporadic Failures
+
+    * Build System: Catch Sporadic Failures
+
+    ---------
+
+    Co-authored-by: Jakob Lichtenberg <jakobl@ntdev.microsoft.com>
+
+commit cff1465ff184c6e89d43083f8430040e72d69283
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Feb 19 14:26:14 2024 -0800
+
+    Add ARM64 as target platform on multiple samples (#1104)
+
+    * Add ARM64 as target platform on multiple samples
+
+    * Remove ARM64 from WFPSampler temporarily
+
+    ---------
+
+    Co-authored-by: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+
+commit ce620f03a63f77df31e4e01541bdb13bedf7146f
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Mon Feb 19 10:32:31 2024 -0800
+
+    Update IddSampleApp.vcxproj - fix copy-paste error
+
+commit 92392c76c92378afdf263d236e939f49ce321ee1
+Author: prashantchahar <chahar.prashant@gmail.com>
+Date:   Mon Feb 19 10:13:13 2024 -0800
+
+    Add explicit flag for arm64 for ehsc and remove incremental link (#1117)
+
+    * Add explicit flag for arm64 for ehsc and remove incremental link as ehsc is not passsed for ARM64 VS and looks like ltcg is not supported as well.
+
+    * Update exclusions.csv
+
+    * Set exception handling via property ExceptionHandling
+
+    ---------
+
+    Co-authored-by: Prashant Chahar <pchahar@microsoft.com>
+    Co-authored-by: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+    Co-authored-by: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+
+commit 6320acddf408d844e9e1d0f69fbed711f21dca4b
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Sun Feb 18 22:33:13 2024 -0800
+
+    Merge main to develop (empty merge) (#1119)
+
+    Update main branch infverif flags (#1118)
+
+commit 7638cc34aeb7f71b8679d940bd24d8d44972f335
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Sun Feb 18 22:26:04 2024 -0800
+
+    Update main branch infverif flags (#1118)
+
+commit 9a4b1a6b217afe449ca35a952099d62ca0dcd19b
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Thu Feb 15 13:55:20 2024 -0800
+
+    Upgrade nuget to 26061 (#1115)
+
+    Update to WDK NuGet 26061
+
+    Co-authored-by: Jakob Lichtenberg <jakobl@ntdev.microsoft.com>
+
+commit e34c074ad2bbc4e893a8357e0f11fae9c6913ec6
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Thu Feb 15 13:36:15 2024 -0800
+
+    Re-add exclusion of video.indirectdisplay.  This time for EWDK.
+
+commit c73af47e04261d66a3365c4eee64b2295f2b9d53
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Wed Feb 14 11:52:37 2024 -0800
+
+    Delete biometrics sample (#1111)
+
+commit ae395fa7d01465fa82eb37a8d19084366aa7599b
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Wed Feb 14 08:30:19 2024 -0800
+
+    WDK NuGet: Add support for network/trans/WFPSampler and wmi/wmisamp (#1109)
+
+    * Remove wmicheck for mof as it is not valid for kmdf projects
+
+    * Fixed path to uuid.lib
+
+    ---------
+
+    Co-authored-by: Prashant Chahar <pchahar@microsoft.com>
+
+commit a24402f3c205892d1769c982e0bb09320e3b8855
+Author: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+Date:   Tue Feb 13 17:11:29 2024 -0800
+
+    Remove exclusion of video.indirectdisplay
+
+commit be187a1b8ebaca7f920b6918f13c741c41059aae
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Feb 13 15:15:12 2024 -0800
+
+    Add ownership info for TrEE
+
+commit 973f866ad65b3615116fd65e9cbdf28481d35146
+Merge: 680f276a 4699c973
+Author: David Spruill <62445444+Spruill-1@users.noreply.github.com>
+Date:   Tue Feb 13 15:23:04 2024 -0500
+
+    Merge pull request #1107 from microsoft/user/daspr/CorrectIDDSample
+
+    User/daspr/correct idd sample
+
+commit 680f276a600ba62925776e02b57b72513e1e9908
+Author: Elaine Houha <38798233+houha2@users.noreply.github.com>
+Date:   Tue Feb 13 10:20:28 2024 -0800
+
+    Part 2: WfpSampler now compiles on both EWDKs (#1108)
+
+    * compiles on both EWDKs needed for all 5 Samples
+
+    * fixes the debug build which broke during merge conflict resolution
+
+    * Update exclusions.csv
+
+    ---------
+
+    Co-authored-by: Elaine Houha <elhouha@microsoft.com>
+    Co-authored-by: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+
+commit 4699c9735a7077cd991a2b0b666d00760f04d9ee (origin/user/daspr/CorrectIDDSample)
+Author: David Spruill <daspr@microsoft.com>
+Date:   Mon Feb 12 13:07:42 2024 -0500
+
+    update the project settings for the IDD sample
+
+commit dae7c2a1984844ba300fe085b231ac61925344b8
+Author: mvillalpando06 <116905813+mvillalpando06@users.noreply.github.com>
+Date:   Thu Feb 8 12:47:43 2024 -0800
+
+    Add arch variable to simsensor and simtc infs (#1092)
+
+    * Add arch variable to simsensor and simtc infs
+
+    * Update models section to user $ARCH$ variable
+
+commit d7005d71bbf981bb6ef7e7a7b79d7829b4404875
+Author: Jakob Lichtenberg <jakobl@ntdev.microsoft.com>
+Date:   Tue Feb 6 22:01:30 2024 -0800
+
+    Do not build solutions in the .\packages folder
+
+commit b2476b64dbff3fe47698dc4d3d449cc141605264
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Tue Feb 6 19:56:14 2024 -0800
+
+    Add signing policy for prm sample (#1103)
+
+commit aff38669771c597fbd008a7a018993f4e2814d62
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Tue Feb 6 18:07:09 2024 -0800
+
+    Simplify MSBuild Flags (#1093)
+
+    * user/jakobl/simplify_flags
+
+    * user/jakobl/simplify_flags
+
+    * Update Build-Sample.ps1
+
+    * Merge with upcoming PR https://github.com/microsoft/Windows-driver-samples/pull/1088
+
+    * white space only change
+
+commit 1ad137b6e5a762d3dc0ea0e0bd95f4e46e2dd329
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Tue Feb 6 18:01:44 2024 -0800
+
+    Initial Support for WDK NuGet Experiment. Take 3 (#1102)
+
+    * Add parent directory file for NuGet import support
+
+    * fix directory.build.props file
+
+    * Checked in a comment with baseline. Also small fix to make sure we use GE InfVerif flags and Exclusions.csv
+
+    * Remove references to path which refer older vars
+
+    * Remove stale variable path from mincore.lib
+
+    * remove references to stale variale from vhidmimium
+
+    * remove stale reference from ddproxy
+
+    * remove stale reference in inspect.vcxproj
+
+    * Remove stale path reference in msnmntr.vcxproj
+
+    * Remove stale path reference to stmedit.vcxproj
+
+    * Remove stale path from echosrv.vcxproj
+
+    * remove stale path mscorelib SingleComponentSingleStateUm.vcxproj
+
+    * remove stale path
+
+    * Move GitHub check up front
+
+    * Replace correct value for the wpprecorderum
+
+    * Removed the stale references for the um libs
+
+    * correct the reference path for libs simplemedia
+
+    * Correct the reference path for vccomsup
+
+    * Correct the reference path for sdk lib path
+
+    * added reference to the kit shared inc path
+
+    * added reference to the kit shared inc path
+
+    * Build-SampleSet: Let determination of NuGet packages be based on a folder .\packages rather than the .\packages.config file
+
+    * added reference to the kit shared inc path
+
+    * Updated PACKAGERESTORE_README.md with results from Prashant's recent fixes.  Moves us 37 failures to 19 failures.
+
+    * Rewrite how to get NuGet packages via EEAP or MSFTNuGet
+
+    * Minor edits to Building-Locally.md
+
+    * added reference to the kit shared inc path
+
+    * Move forward to ge_release 26052.  This fixes samples .\prm
+
+    * added reference to the kit shared inc path
+
+    * Move forward to ge_release 26052.  This fixes samples .\prm.  Update to .\Building-Locally.md
+
+    * added reference to the kit shared inc path
+
+    * added reference to the kit shared inc path
+
+    * added reference to the kit shared inc path
+
+    * added reference to the kit shared inc path
+
+    * added reference to the kit shared inc path
+
+    * added reference to the kit shared inc path
+
+    * Update NuGet build instructions and PACKAGERESTORE_README.md
+
+    * Reset Building-Locally.md and remote PACKAGERESTORE_README.md
+
+    * Add reference to wdk um include path
+
+    * Add reference to wdk um include path
+
+    * Add reference to wdk um include path
+
+    * Provided full path to wmimofck.exe to correctly resolve
+
+    * Fix the path resolution for wmimofexe
+
+    * Correct the wmimfck path resolution
+
+    * Add NuGet arm64 support
+
+    ---------
+
+    Co-authored-by: Prashant Chahar <pchahar@microsoft.com>
+    Co-authored-by: Jakob Lichtenberg <jakobl@ntdev.microsoft.com>
+
+commit 07936d8becadc8f92d1d0416d2864b341840d6ad
+Author: David Spruill <62445444+Spruill-1@users.noreply.github.com>
+Date:   Tue Feb 6 18:59:22 2024 -0500
+
+    replace deprecated exallocatepool* APIs with their modern replacement (#1088)
+
+commit b12e3a38837146c1c1c3e202e2e2ad9f9ddf009f
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Feb 6 15:15:13 2024 -0800
+
+    Add new teams as owners; fix some entries.
+
+commit 81a3070cd98c8ac8fc88eaa7f2c8c1d696f62ba1
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Tue Feb 6 01:43:29 2024 -0800
+
+    Initial Support for WDK NuGet Experiment. Take 2. (#1099)
+
+    * Add parent directory file for NuGet import support
+
+    * fix directory.build.props file
+
+    * Checked in a comment with baseline. Also small fix to make sure we use GE InfVerif flags and Exclusions.csv
+
+    * Remove references to path which refer older vars
+
+    * Remove stale variable path from mincore.lib
+
+    * remove references to stale variale from vhidmimium
+
+    * remove stale reference from ddproxy
+
+    * remove stale reference in inspect.vcxproj
+
+    * Remove stale path reference in msnmntr.vcxproj
+
+    * Remove stale path reference to stmedit.vcxproj
+
+    * Remove stale path from echosrv.vcxproj
+
+    * remove stale path mscorelib SingleComponentSingleStateUm.vcxproj
+
+    * remove stale path
+
+    * Move GitHub check up front
+
+    * Replace correct value for the wpprecorderum
+
+    * Removed the stale references for the um libs
+
+    * correct the reference path for libs simplemedia
+
+    * Correct the reference path for vccomsup
+
+    * Correct the reference path for sdk lib path
+
+    * added reference to the kit shared inc path
+
+    * added reference to the kit shared inc path
+
+    * Build-SampleSet: Let determination of NuGet packages be based on a folder .\packages rather than the .\packages.config file
+
+    * added reference to the kit shared inc path
+
+    * Updated PACKAGERESTORE_README.md with results from Prashant's recent fixes.  Moves us 37 failures to 19 failures.
+
+    * Rewrite how to get NuGet packages via EEAP or MSFTNuGet
+
+    * Minor edits to Building-Locally.md
+
+    * added reference to the kit shared inc path
+
+    * Move forward to ge_release 26052.  This fixes samples .\prm
+
+    * added reference to the kit shared inc path
+
+    * Move forward to ge_release 26052.  This fixes samples .\prm.  Update to .\Building-Locally.md
+
+    * added reference to the kit shared inc path
+
+    * added reference to the kit shared inc path
+
+    * added reference to the kit shared inc path
+
+    * added reference to the kit shared inc path
+
+    * added reference to the kit shared inc path
+
+    * added reference to the kit shared inc path
+
+    * Update NuGet build instructions and PACKAGERESTORE_README.md
+
+    * Reset Building-Locally.md and remote PACKAGERESTORE_README.md
+
+    ---------
+
+    Co-authored-by: Prashant Chahar <pchahar@microsoft.com>
+    Co-authored-by: Jakob Lichtenberg <jakobl@ntdev.microsoft.com>
+
+commit cdd758d3b2427b8b8cc9c8a556f4400c7a4db45b
+Author: Jacob Ronstadt <147542405+jacob-ronstadt@users.noreply.github.com>
+Date:   Mon Feb 5 14:53:43 2024 -0800
+
+    Update codeql code scanning to add microsoft/windows-drivers queries (#1098)
+
+    * test code scanning with new package
+
+    * update code scanning file. test without building
+
+    * fix typo
+
+    * add back build step
+
+    * Update Code-Scanning.yml
+
+    * Update Code-Scanning.yml
+
+    * Update Code-Scanning.yml
+
+commit 09b3b7c626b9920a2192143a09a928b6669edda2
+Author: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+Date:   Mon Feb 5 12:04:00 2024 -0800
+
+    exclusion.csv: Update network.trans.wfpsampler to now be supported with NI WDK but still broken for GE WDK
+
+commit 220545ea6e98af9259b66ea3983b51dbf3b2bf1e
+Author: Elaine Houha <38798233+houha2@users.noreply.github.com>
+Date:   Mon Feb 5 10:25:29 2024 -0800
+
+    Updating the Windows Filtering Platform Samples to compile correctly on VS2022 (#1089)
+
+    * ddproxy compiles on VS2022
+
+    * inspect compiles on VS2022
+
+    * stmEdit compiles on VS2022
+
+    * sampler compiles on VS2022
+
+    * changes some encodings and updates the stmedit version
+
+    * restores the vcxproj
+
+    * more vcxproj fixes
+
+    * ddproxy inf
+
+    * stmedit vcxproj pt2
+
+    * stmd sln
+
+    * Update exclusions.csv
+
+    * all but one flavor compiles on NI EWDK
+
+    * found a bug in an assert
+
+    * Builds clean for all drivers except WfpSampler on both WDK 17.1.5 and 17.8.2, WFPSampler changes get it to build on WDK 17.1.5 but there are still issues with 17.8.2
+
+    ---------
+
+    Co-authored-by: Elaine Houha <elhouha@microsoft.com>
+    Co-authored-by: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+
+commit 4757e838c7703d4a5edc1eed6a80b916dc40461d
+Author: Yinghan Yang <yinghany@microsoft.com>
+Date:   Thu Feb 1 10:59:00 2024 -0800
+
+    Fix PRM sample driver INF targetOsVersion (#1096)
+
+    fix INF target OS for Ge only PRM sample
+
+    Co-authored-by: Yinghan Yang (307315) <Yinghan.Yang@microsoft.com>
+
+commit fcca69b106fd81fe4cfb252f3304895221c749e2
+Author: Yinghan Yang <yinghany@microsoft.com>
+Date:   Wed Jan 31 23:19:07 2024 -0800
+
+    Add Prm sample (#1094)
+
+    * add prm sample
+
+    * Update exclusions.csv
+
+    * add owners for PRM and GPIO samples
+
+    * fix INF
+
+    ---------
+
+    Co-authored-by: Yinghan Yang (307315) <Yinghan.Yang@microsoft.com>
+    Co-authored-by: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+
+commit cae40641b7102f81915c08c99c0a41b616994c92
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Wed Jan 31 19:11:19 2024 -0800
+
+    This PR simply deletes a redundant sln file (#1095)
+
+    user/jakobl/delete_AvsCameraDMFT_sln
+
+commit 24f280dc4a700f00f5fbb8f13815b941620adb8e
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Wed Jan 31 13:45:54 2024 -0800
+
+    Fixes for sample build errors and updates to the execution script to use new build flags (#1078)
+
+    * Fixes for sample build errors
+
+    * Fix additional sample
+
+    * Add additional sample
+
+    * Updated comments in Build-Sample.ps1
+
+    * Adjusting exclusions.csv to be accurate for GE. Still issues for NI that we need to understand better
+
+    * Merge from develop branch
+
+    * Merge from develop branch
+
+    * Merge from develop branch
+
+    * Delete WPD samples
+
+    * Separate infverif additional options for old vs new WDK
+
+    * Delete WPD samples entry in our CODEOWNERS file
+
+    * Fix spelling error
+
+    * For 22621 WDK Remove the /samples flag
+
+    ---------
+
+    Co-authored-by: Zac Lockard <zlockard@microsoft.com>
+    Co-authored-by: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+
+commit c657bc76ca6cf64660e12efe2d07a100055d98c0
+Merge: 375796ac dcf62651
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Jan 29 14:29:28 2024 -0800
+
+    Merge branch 'main' into develop
+
+commit 375796ace98c7f24779a553c9127d340855442af
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Jan 29 14:28:41 2024 -0800
+
+    Remove WinHEC 2017 from exclusion list
+
+commit dcf6265102838bdd29899037a6fc630ae455f80d
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Jan 29 14:25:41 2024 -0800
+
+    Bump tj-actions/changed-files from 35 to 41 in /.github/workflows (#1067)
+
+    Bumps [tj-actions/changed-files](https://github.com/tj-actions/changed-files) from 35 to 41.
+    - [Release notes](https://github.com/tj-actions/changed-files/releases)
+    - [Changelog](https://github.com/tj-actions/changed-files/blob/main/HISTORY.md)
+    - [Commits](https://github.com/tj-actions/changed-files/compare/v35...v41)
+
+    ---
+    updated-dependencies:
+    - dependency-name: tj-actions/changed-files
+      dependency-type: direct:production
+    ...
+
+    Signed-off-by: dependabot[bot] <support@github.com>
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+commit c3954623835df54346b25479ec2e7bd0462e47e6
+Author: Adonais Romero Gonzalez <seromero@microsoft.com>
+Date:   Mon Jan 29 14:23:14 2024 -0800
+
+    Remove WinHEC 2017 samples
+
+commit 3d2a9de57586e2174f380cbfe298c11d39f597bc
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Fri Jan 26 22:49:39 2024 -0800
+
+    Update exclusions (#1090)
+
+commit 3d32dffd7ac81ee1f02662dbfdef128cff96864c
+Merge: ae267d09 10d84c5e
+Author: Christian Allred <13487734+cgallred@users.noreply.github.com>
+Date:   Thu Jan 25 12:12:03 2024 -0800
+
+    Merge pull request #932 from hsebs/patch-2
+
+    Fix error logging
+
+commit d8a8746446849e167202af993f99955d19c12641
+Author: David Spruill <daspr@microsoft.com>
+Date:   Wed Jan 24 17:38:05 2024 -0500
+
+    Replace deprecated ExAllocatePool* APIs with ExAllocatePool2.
+
+commit ae267d0928bc42ec90dc7e5bf03267f237c12585
+Author: andylsn <andylsn93@gmail.com>
+Date:   Wed Jan 24 13:12:44 2024 -0800
+
+    Update projects so that no warning/error is logged for AddSoftware Type1 (#1086)
+
+    Co-authored-by: Shunni Li <shunnli@microsoft.com>
+
+commit 868a761b4bbf111a4a5d4135d9dd4628de553c4a
+Merge: 1f805487 64c1afad
+Author: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+Date:   Mon Jan 22 19:29:49 2024 -0800
+
+    Merge from main branch
+
+commit 1f80548703018661e5b50bf3d18df237632e8d48
+Author: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+Date:   Mon Jan 22 19:25:08 2024 -0800
+
+    Merge from main branch
+
+commit 64c1afad486ce84bb7d7128afab0aba0fd00f9ef
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Mon Jan 22 18:17:04 2024 -0800
+
+    mshidkmdf->mshidumdf (#1085)
+
+    Co-authored-by: Zac Lockard <zlockard@microsoft.com>
+
+commit 19e64358a658dc458e7bdc87424217f39c9e1075
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Mon Jan 22 16:37:33 2024 -0800
+
+    Fix build issues in vhid samples (#1084)
+
+    * Fix build issues in vhid samples
+
+    * Merge from main branch and remove entries from exclusion.csv.  Still see failure 2087 for hid.hidusbfx2
+
+    * Also update hidusbfx2.inf
+
+    ---------
+
+    Co-authored-by: Zac Lockard <zlockard@microsoft.com>
+    Co-authored-by: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+
+commit 7e74c8021f961544ee14e55eb56166a671d66ee3
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Mon Jan 22 09:34:24 2024 -0800
+
+    Partial Manual Merge of develop to main specifically to add /sw1402 (#1083)
+
+    user/jakobl/partial_merge_develop_to_main
+
+commit 3a6ee84b6ba1b709905d51f9e110c9d87d72f0ac
+Author: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+Date:   Mon Jan 22 09:05:28 2024 -0800
+
+    Add infverif suppression of 1402 (add missing comment)
+
+commit 39d4cacae2001f9f8aad5694d82e81deac945189
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Sat Jan 20 17:46:54 2024 -0800
+
+    A trivial bug in Build-AllSamples.ps1 for the case when there are 0 samples matching the -Samples argument (#1081)
+
+    user/jakob/build_sample_fix
+
+commit e09a8f39478f9e9656878edc5587533059249a5c
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Sat Jan 20 17:24:04 2024 -0800
+
+    Add infverif suppression of 1402 (#1080)
+
+    user/jakob/add_infverif_sw1402
+
+commit 6ac1123574e4f670b62f2b6258c31458a471f1c9
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Sat Jan 20 17:22:53 2024 -0800
+
+    For Build-AllSamples.ps1: For EWDK: Log full build lab string. (#1079)
+
+    user/jakob/ewdk_print_buildlab
+
+commit f7fc914c27922a0944dc8140dc2a1ebb66cfab73
+Author: andylsn <andylsn93@gmail.com>
+Date:   Mon Jan 15 13:38:20 2024 -0800
+
+    Fix build errors for osrfx2_dchu_extension loose/tight solutions (#1069)
+
+    * Update exclusive.csv
+
+    * Fix extension_loose solution and projects
+
+    * Fix extension_tight projects
+
+    * Minor update
+
+    * Update exclusions.csv
+
+    * Update exclusions.csv - Undo my prior edit
+
+    ---------
+
+    Co-authored-by: Shunni Li <shunnli@microsoft.com>
+    Co-authored-by: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+
+commit d8cfee8e09f66b3d17b384499aa11a46f76364bb
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Mon Jan 15 13:30:29 2024 -0800
+
+    Update exclusions.csv - fix comment
+
+commit 867f48ab41d2faa464b15b15d3300dc8e486da19
+Merge: 83f1ab88 d3e7ba7e
+Author: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+Date:   Mon Jan 15 13:17:00 2024 -0800
+
+    merge conflict resolution
+
+commit d3e7ba7e0625b0235a51206f558b4b5574992916
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Mon Jan 15 13:06:49 2024 -0800
+
+    Partial Manual Merge of develop to main specifically to add support for fine grained exclusions (#1076)
+
+    user/jakob/partial_manual_merge_develop_to_main_fine_grained_exclusion
+
+commit 83f1ab88fa6eaaa8417d080e5324bc03900c410a
+Merge: 1d803322 7b0c7e24
+Author: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+Date:   Mon Jan 15 12:29:14 2024 -0800
+
+    Merge branch 'main' into develop
+
+commit 1d8033229e98a688907e3d11ad122565e960714f
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Mon Jan 15 12:25:53 2024 -0800
+
+    Add support for fine grained exclusions (#1074)
+
+    * user/jakobl/fine_grained_exclusions
+
+    * user/jakobl/fine_grained_exclusions
+
+    * user/jakobl/fine_grained_exclusions
+
+    * user/jakobl/fine_grained_exclusions
+
+    * user/jakobl/fine_grained_exclusions
+
+    * user/jakobl/fine_grained_exclusions
+
+    * Update exclusions.csv
+
+commit 734e40ba51939a9950e387207c23d73c7c85567d
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Mon Jan 15 10:23:28 2024 -0800
+
+    Merge main to develop (#1075)
+
+    * Workaround to fix issues install VS using winget configuration
+
+    * Add winget configuration file to install VS only
+
+    ---------
+
+    Co-authored-by: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+
+commit 1e9dd4a500f0407ddf6f69fd9413733c069e945f
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Sun Jan 14 20:02:42 2024 -0800
+
+    Bug 45018002: WDK: Samples - Sample not build by PR workflow if exclusion is removed (#1073)
+
+    user/jakobl/full_build_trigger_by_exclusions_csv
+
+commit 8b9348eb091b558a8d4b4c6a60b44e872069a8da
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Sun Jan 14 18:34:07 2024 -0800
+
+    For all solutions in .\tools folder: Add ARM64 support. Remove any aspects of ARM, Win32, x86 support. January 2024 version (#1072)
+
+    user-jakobl-tools_arm64_2
+
+commit 7b0c7e24905cf4cafd33da5737b573696beb66b7 (origin/user/jacob-ronstadt/code-scanning)
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Dec 14 13:39:53 2023 -0600
+
+    Add winget configuration file to install VS only
+
+commit 962c0594ad985978c80711740ffba57ef5566f99
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Dec 14 13:39:31 2023 -0600
+
+    Workaround to fix issues install VS using winget configuration
+
+commit 920221cae92780eba8fa4ef75cd1d553eaa7534a
+Merge: 256ee24f 06f8f12a
+Author: Zachary Northrup <891037+zhuman@users.noreply.github.com>
+Date:   Tue Dec 5 14:00:32 2023 -0800
+
+    Merge pull request #1059 from microsoft/revert-1058-user/zhuman/delete-pixlib
+
+    Revert "Delete video/pixlib directory" and instead move it into an archive folder
+
+commit 06f8f12a94bb1ef9d11e468ec37a2ab5db83f0e5 (origin/revert-1058-user/zhuman/delete-pixlib)
+Author: Zachary Northrup <z-systems@hotmail.com>
+Date:   Mon Dec 4 00:48:17 2023 -0800
+
+    Move pixlib to an "archive" folder
+
+commit 87b964d43152d5b4842b85323b61e7888197d944
+Author: Zachary Northrup <891037+zhuman@users.noreply.github.com>
+Date:   Sat Dec 2 18:03:32 2023 -0800
+
+    Revert "Delete video/pixlib directory"
+
+commit 256ee24fe33607c1d00c8ad39f1b9f12bd2e53c7
+Merge: c8715131 f3af78b1
+Author: Zachary Northrup <891037+zhuman@users.noreply.github.com>
+Date:   Fri Dec 1 16:27:58 2023 -0800
+
+    Merge pull request #1058 from microsoft/user/zhuman/delete-pixlib
+
+    Delete video/pixlib directory
+
+commit f3af78b1dbaf7933839736cd401702fde93769ee
+Author: Zachary Northrup <891037+zhuman@users.noreply.github.com>
+Date:   Fri Dec 1 16:23:53 2023 -0800
+
+    Delete video/pixlib directory
+
+    This appears to be an obsolete sample, probably provided for D3D7 UMD support around the turn of the millennium.
+
+commit c8715131a82e0b352da90cd82138b6d9b7780bac
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Dec 1 13:48:30 2023 -0800
+
+    Add exclusion for driver due to missing header in WDK update
+
+commit bef73f3af1cbc66452c5ad5aa0d1fcafad27df2b
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Dec 1 13:28:46 2023 -0800
+
+    Update CODEOWNERS
+
+commit 143f6fd89ace1ea410ba3dac38478114a62ba867
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Fri Nov 24 13:52:42 2023 -0800
+
+    This change will ensure failures from build script will be sorted for easier review. (#1054)
+
+    sort-failures
+
+commit 00d6f86f2aa7fccb7cdd16045d0abfbe1cfa0aed
+Author: emilyhobby <86006065+emilyhobby@users.noreply.github.com>
+Date:   Tue Nov 21 12:01:43 2023 -0800
+
+    Updates to DevCon RC file and input reading (#1048)
+
+    Updates to RC file and input reading
+
+commit 796e36a252aaf723d8ec642c37b45235622c53e7
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Wed Nov 15 16:19:39 2023 -0800
+
+    Add Kernel Core as code owners
+
+commit 18add85abe5175e84b1ef6de8ddf187f8a97390d
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Nov 13 14:52:10 2023 -0800
+
+    Update code owners
+
+commit 6e1f57ddbd8b575316149cff3ada1306982394c5
+Merge: 393129dc 6971eb69
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Nov 13 14:11:53 2023 -0800
+
+    Merge branch 'main' into develop
+
+commit 6971eb69270c614964808f0409fe0b479da51270
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Nov 13 10:32:46 2023 -0800
+
+    Minor adjustments to build instructions (#1021)
+
+commit d9bea2cdcc8133fb5a9e527b7840aac16f2b5fe8
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Mon Nov 13 10:21:17 2023 -0800
+
+    47451678: Windows-driver-samples /Building-Locally.md: Remove ping (`) from instructions (#1050)
+
+commit a14b6aebc18f5d1515a9a713a6defbaee883a63e
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Nov 13 13:57:25 2023 -0800
+
+    Add InfVerif exceptions on main branch
+
+commit 393129dc4b45c0c5e22baee61532b7faa7895f03
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Nov 13 13:52:08 2023 -0800
+
+    Add more InfVerif exceptions & clear exclusions (#1052)
+
+commit 570a65f4dc08c709d96ee17bfae9c58f15ce3eba
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Nov 13 10:32:46 2023 -0800
+
+    Minor adjustments to build instructions (#1021)
+
+commit 61b6bdcf2c034dfedcb1806a58756faf3430f89d
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Mon Nov 13 10:21:17 2023 -0800
+
+    47451678: Windows-driver-samples /Building-Locally.md: Remove ping (`) from instructions (#1050)
+
+commit f07f43cbbc2110bd6fe0389a1017544072d7dda6
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Nov 7 10:41:35 2023 -0800
+
+    Add new flag and exclusion for new InfVerif changes (#1049)
+
+commit 3ad25d938bc0319447992218a1809814119188df
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Tue Oct 31 14:53:48 2023 -0700
+
+    INF changes to support latest WDK (#1046)
+
+    Co-authored-by: Zac Lockard <zlockard@microsoft.com>
+
+commit 3b5421931e80bc8c0b83ff899a04aca54b42162d
+Merge: 853fbfdb 50df9d04
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Oct 30 16:00:09 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit 50df9d04730457b381c74e7b78edb1d0f8208ec6
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Mon Oct 30 15:20:51 2023 -0700
+
+    Merge in changes from develop (#1045)
+
+    Co-authored-by: Zac Lockard <zlockard@microsoft.com>
+
+commit 853fbfdb2f5a16091ac536d5825530f767747b22
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Mon Oct 30 15:02:23 2023 -0700
+
+    Biousb coinstaller remove (#1044)
+
+    Remove WUDF coinstaller from biousb sample
+
+    Co-authored-by: Zac Lockard <zlockard@microsoft.com>
+
+commit 8f1b07fc5dba2c17147c946bdad3bb4798eabd49
+Merge: e6504a0f 0982eda9
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Oct 30 11:25:31 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit 0982eda9bfe536c1d640fe8f27821eeb17fa9ff8
+Author: dianarodrigz <102701114+dianarodrigz@users.noreply.github.com>
+Date:   Mon Oct 30 11:24:42 2023 -0700
+
+    Fix sysvad to comply with new audio rules ( including versioning ) (#1043)
+
+    Co-authored-by: Diana Rodriguez Luna <dirodr@microsoft.com>
+
+commit e6504a0f01e18f1e68d6db6bc4e7f76dad81f414
+Author: mvillalpando06 <116905813+mvillalpando06@users.noreply.github.com>
+Date:   Fri Oct 27 15:46:26 2023 -0700
+
+    [simbatt] Add missing PAGED_CODE() macro (#1010)
+
+commit 691127a809117e4e6d665e7896e3aff3a453e58f
+Author: jk <jitesh_krishnan@yahoo.com>
+Date:   Tue Oct 24 15:31:44 2023 -0700
+
+    [avstream] replacing mft0 with dmft (#1033)
+
+    * replacing mft0 with dmft
+    * delete sources file
+    * integrate internal review changes
+
+commit a98d1ed1fb56764563027c2ccc63bf8e5df9314f
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Oct 23 11:20:22 2023 -0700
+
+    Add new owners
+
+commit d21ba3763c494fb45f9ac61806e74cffbca68a87
+Merge: 34ff9aa8 75f6610a
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Wed Oct 11 15:02:13 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit 34ff9aa8f62bc36df4c6cfda178e550432f5e3ec
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Wed Oct 11 14:43:58 2023 -0700
+
+    Add new owners
+
+commit 650bc18ac3c7b7e252108c466b35f7f21932a1d4
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Mon Oct 9 11:14:29 2023 -0700
+
+    Remove .exe from the INF file (#1040)
+
+    Co-authored-by: Zac Lockard <zlockard@microsoft.com>
+
+commit e5b593934bb807702b5cea660b552528dff04709
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Thu Oct 5 15:56:04 2023 -0700
+
+    Remove wudfrd and WDF coinstaller from sample (#1039)
+
+    Co-authored-by: Zac Lockard <zlockard@microsoft.com>
+
+commit 75f6610aab567835c056bf761f93132ea8e07307
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Thu Oct 5 12:44:08 2023 -0700
+
+    Remove BasicDriverOk from samples (#1038)
+
+    Co-authored-by: Zac Lockard <zlockard@microsoft.com>
+
+commit 06b33059b7cd04038a8d437cffc3cb1bf3c8a862
+Merge: c39cb207 7d62dd8d
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Wed Oct 4 11:09:29 2023 -0700
+
+    Merge pull request #1013 from microsoft/fsfilters_version_updates
+
+    Fsfilters isolation updates
+
+commit 7d62dd8d5b59819f53afe50c851967c9c69facc0
+Author: Zac Lockard <zlockard@microsoft.com>
+Date:   Mon Oct 2 11:50:25 2023 -0700
+
+    Remove unused variable
+
+commit d5e0277eb9489f3115779567fee3645bc99c86b5
+Author: Zac Lockard <zlockard@microsoft.com>
+Date:   Fri Sep 29 18:25:03 2023 -0700
+
+    Switch to final registry key loading paradigm
+
+commit c3e1a7f2d210cbac6c51a8f6915f73defac4df71
+Author: Zac Lockard <zlockard@microsoft.com>
+Date:   Thu Sep 28 15:31:56 2023 -0700
+
+    Clean up paradigm
+
+commit f6b43cc8dc357af15c57d4ae055e8e4750472b4b
+Author: Zac Lockard <zlockard@microsoft.com>
+Date:   Wed Sep 27 13:32:13 2023 -0700
+
+    Prototype new paradigm
+
+commit c39cb207eb53bbb6196f398287c32d5d72fb9fa7
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Wed Sep 27 10:37:01 2023 -0700
+
+    [storage/filters] Remove deprecated sample
+
+commit dc1fca92c9ad0a9d14b3e8cf6c7e3c5fe238bf83
+Merge: acea8447 ea6fd60b
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Wed Sep 27 10:21:43 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit acea8447ea80906b6a011e0dcfdde5fce628e4ee
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Wed Sep 27 10:20:22 2023 -0700
+
+    Update CODEOWNERS
+
+commit 0ea260da2277c6c70ff5b21a095d73b76748d1d9
+Author: Zac Lockard <zlockard@microsoft.com>
+Date:   Tue Sep 26 18:09:23 2023 -0700
+
+    Update to correct build number
+
+commit 391f406ee68b691de448d3c4bd96f4afbf257778
+Author: Zac Lockard <zlockard@microsoft.com>
+Date:   Tue Sep 26 15:27:11 2023 -0700
+
+    Remove user-mode app from driver package to fix build issues
+
+commit ea6fd60b5b94b5f556a2317e5fa4b3659d64c9f9
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Sep 22 10:49:57 2023 -0700
+
+    Move winget configuration file
+
+commit 84cff3238e5cdddec2e3a68e7afda29bdce4a8a7
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Sep 22 10:47:40 2023 -0700
+
+    Add winget configuration files for WDK 22621
+
+commit 7d4ba15415948e0dc36bb55dc1aebaafd39bddc3
+Merge: d35df215 2639b5d6
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Aug 25 15:28:53 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit 2639b5d65fa4777c669c45be8f1a13142b0e49a0
+Author: jk <jitesh_krishnan@yahoo.com>
+Date:   Fri Aug 25 15:16:49 2023 -0700
+
+    [avstream/sampledevicemft] Fix format change error for YUY2 (#984)
+
+commit e0c0afda943a63d5e6ce888e158096428c6654df
+Author: jk <jitesh_krishnan@yahoo.com>
+Date:   Tue Feb 7 15:44:24 2023 -0800
+
+    Change the locking scheme in DMFT to unlock in setoutputstreamstate (#810)
+
+    A change in device transform manager brought about a deadlock scenario in DMFT sample. The sample now behaves like we have in the rest of the pipeline i.e. we release the lock and wait for the operations on the input pins to complete. This hang is responsible for AMD hangs.
+
+commit d35df21596bd51e203a8902260b7d03de6904acb
+Author: jk <jitesh_krishnan@yahoo.com>
+Date:   Fri Aug 25 15:16:49 2023 -0700
+
+    [avstream/sampledevicemft] Fix format change error for YUY2 (#984)
+
+commit a24deb382ef94ab81862894d935b272792d1043b
+Merge: 4fe6dd3b 579de519
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Aug 22 15:47:15 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit 579de5195910865b60300055962b291212af2096
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Aug 22 15:46:58 2023 -0700
+
+    Update code owners to team ownership
+
+commit 4fe6dd3bcf2f27214af9f89d3cf13b321f45a012
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Aug 21 16:32:32 2023 -0700
+
+    Remove legacy sample - Radio Switch using USB-FX2 board
+
+commit db7372d88ef425b082f478afe5f4acaf999704b3
+Author: emilyhobby <86006065+emilyhobby@users.noreply.github.com>
+Date:   Fri Aug 18 09:05:46 2023 -0700
+
+    Added pnputil equivalents to devcon help text output (#1019)
+
+    * Added pnputil equivalents to devcon help text output
+
+    * Addressed feedback
+
+    * Standardized devcon remove and devcon removeall
+
+commit 80864095d825c11a9763bc2b96e7c97765355b77
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Aug 11 16:00:19 2023 -0700
+
+    Remove print samples from exclusion list
+
+commit 08f62393eaba953b97dce85c2ab80c6def9522fd
+Merge: c0e5e477 b999d84d
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Aug 11 15:56:56 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit b999d84d456525d283441aed977dacac33f88c38
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Aug 11 15:54:46 2023 -0700
+
+    Add base code ownership file
+
+commit c0e5e477a89dc3fbc206e86a1ed03f8e659cc432
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Aug 11 11:24:05 2023 -0700
+
+    Removed unused string tokens related to MediaCategories (#1018)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit cbbd53eda55fbdf65f22b5f57c7dbc4b1ea594fd
+Author: alexke-dev <65682333+alexke-dev@users.noreply.github.com>
+Date:   Thu Aug 10 16:28:02 2023 -0700
+
+    Remove Print Driver Samples (#1017)
+
+    * Remove print driver samples. Add README.md to redirect consumers to Print Support App (PSA) development guide.
+
+    * Remove en-us from URL.
+
+commit 6ea518dd65b6c2c3b298bb8e7ed5e9124b8a4981
+Author: AlbertGuan9527 <87043564+AlbertGuan9527@users.noreply.github.com>
+Date:   Tue Aug 1 12:57:17 2023 -0700
+
+    Update simsensor driver on temperature check (#1012)
+
+    The current implementation of simsensor doesn't match to the description of MSDN page. This change made the update to make them consistent.
+
+commit b45ffd69a7205e46bbdd5d415ac591f9446fb04f
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Mon Jul 31 17:28:46 2023 -0700
+
+    Update file system filter samples to use isolated state locations
+
+commit 713297235bc1de929404221824b88c6b4228376b
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Jul 24 08:35:10 2023 -0700
+
+    Update some sample drivers to Include/Needs wudfrd.inf instead of AddService for WudfRd (#1011)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit d314c5402c62e1278adf42be4669c23e3ad93ed3
+Author: CJ Lee <95255209+cheoljinms@users.noreply.github.com>
+Date:   Tue Jul 11 09:01:10 2023 -0700
+
+    Windows Driver (#1005)
+
+commit f7a5f2d76982e063720a3ca7a767706b7962e504
+Author: CJ Lee <95255209+cheoljinms@users.noreply.github.com>
+Date:   Mon Jul 10 09:20:03 2023 -0700
+
+    Install the driver to driver store (DIRID 13), replace legacy patternÅc (#1003)
+
+    * Install the driver to driver store (DIRID 13), replace legacy pattern (2086 error), remove CoInstallers and GnssDriver_Device_AddReg for cleanup, remove WUDFRD_ServiceInstall, and add target OS version to 22000 to avoid DIRID compat issue
+
+    * set the min build 16299
+
+    * set the min build 16299
+
+    * address feedback
+
+    * Update gnssUmdf.inf
+
+commit cf80b4b1e8521f2adc7766418dbfe08267249b78
+Merge: 22f8539f d9acf794
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Jun 29 17:09:26 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit d9acf794c92ba2fb0525f6c794ef394709035ac3
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Jun 29 14:41:47 2023 -0700
+
+    Add configuration filter to exclusion list (#1001)
+
+commit 22f8539fc3350cd457e3ceadd3603b402c602fe8
+Merge: 5ece081a f5fe952f
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Jun 15 11:53:21 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit f5fe952f1fc90cfcff535407d56f49953d22e8da
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Jun 15 11:51:39 2023 -0700
+
+    Generate and provide overview reports (#993)
+
+commit 5ece081af0a34c3cfd4ed2f7e0870b78036ed311
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Jun 12 17:26:49 2023 -0700
+
+    [general/DCHU] Fix toolset, target version and signing errors (#994)
+
+    * Set WindowsTargetPlatformVersion to target latest one instead of a fixed version
+    * Set PlatformToolset to target latest one instead of a fixed version
+    * Set FileDigestAlgorithm to clear errors caused by a digest algorithm not being specified
+    * Removed exception for general\dchu\osrfx2_dchu_base; sample now builds successfully
+
+commit d7e054c83e0f56af4fed7dfedeb99123d2c36938
+Merge: d2c88106 c5cc3eca
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Jun 1 16:01:04 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit c5cc3eca707a39d71a3f34281af107795b2af945
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Jun 1 16:00:21 2023 -0700
+
+    Update MsBuild action (#990)
+
+commit d2c881061d1545ff449ca64b72c2c4bdc37d622b
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Jun 1 15:48:54 2023 -0700
+
+    [network/wlan/WDI] Rename configurations (#988)
+
+commit 29e42c339a2dfd502d9c09efa53d10863be518ce
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Jun 1 15:44:11 2023 -0700
+
+    Add logs as artifacts for actions (#989)
+
+commit c1a5bd8668e2f3bfe36fcdf64e665e3205f432c6
+Author: Julia D'Zmura <78620953+judzmura@users.noreply.github.com>
+Date:   Thu Jun 1 09:34:32 2023 -0700
+
+    [audio/Acx] Remove ARM and x86 platforms from AudioCodec sample driver (#987)
+
+commit 95037b3f77f3a745f7682f991ac80e81f91f5362
+Author: Yang You(UU) <yangyou@microsoft.com>
+Date:   Wed May 3 00:18:34 2023 +0000
+
+    Cleanup the ARM and X86,  (#982)
+
+    Cleanup the ARM and X86, both of them are out of date, currently not able to succesfully build.
+
+commit 75f92869610aae4fee19eca3eeb2af0fccd37948
+Merge: c25e09d5 46db93c4
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon May 1 15:28:26 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit 46db93c4c0542166457f5504010b402a9426ab1d
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon May 1 11:27:52 2023 -0700
+
+    Build all samples on PRs with changes to scripts/workflows (#981)
+
+    Now whenever a change in a script or workflow is detected when running the PR workflow, a full build will be triggered.
+
+    Updated changed-files action as well to remove warning about deprecated actions being used + general improvements.
+
+commit c25e09d5d97a284adf83e3824527c133ad69fd6d
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon May 1 11:15:00 2023 -0700
+
+    [network/trans/stmedit] Fix architecture in solution (#976)
+
+commit 10a103a40e75f4b98092c99e6f1b9ff9c3b20504
+Author: kahashimoto-ms <117399367+kahashimoto-ms@users.noreply.github.com>
+Date:   Fri Apr 21 14:16:04 2023 -0700
+
+    Ndis mux inf violations (#973)
+
+    * Delete deprecated directives DelFiles and DelService
+
+    * Add PnpLockdown=1 to the version section of the inf
+
+    * Add catalog file in muxp.inf
+
+    * Add PnpLockdown=1 to the version section of mux_mp.inf
+
+    * Add catalog file in mux_mp.inf
+
+    * include mux_mp.inf in the muxvaln project
+
+    * include muxp.inf in mux project. Add mux.dll as file to package. Note as of now the Notifyob proj must be built then mux.dll must be moved to the Project Directory
+
+    * Changed all DIRID to 13
+
+    * change all DIRID to 13
+
+    * Create build dependency so that mux.dll is generated before other projects.
+
+    * Include the mux.dll from the notifyob project into the build package
+
+    * Delete comments
+
+    * Edit muxp.inf so that DIRID 13 is used for installation above certain releases
+
+    * Change MUXP->MUXP_NC and MUXP_Update->MUXP. This makes the updated version look like the default. Old version called _NC for non-compliant
+
+    * Edit muxp.inf so that MUXP comes before MUXP_NC
+
+    * Make same edits to mux_mp.inf
+
+    * Enable the Control-flow Enforcement Technology (CET) Shadow Stack mitigation
+
+    * Fix Warning from runing Prefast static analysis
+
+    * Fix more warnings from running Prefast
+
+    * Use stampinf ARCH variable to replace all the hard coded architecures in mux_mp.inf
+
+    * Use stampinf ARCH variable to replace all the hard coded architecures in muxp.inf
+
+    * Delete extra comma typo
+
+    * Change encoding of mux_mp.inf to UTF-16 LE
+
+    * Change encoding of muxp.inf to UTF-16 LE
+
+    * Add the correct build number for installing network drivers with Dlls and upate comment in muxp.inf
+
+    * Add the correct build number for installing network drivers with Dlls and upate comment in mux_mp.inf
+
+    * Change all instances of MUXP tp MUXMP in mux_mp.inf
+
+    * Change Brace style to match existing code
+
+    * Fix mistakes returning win32 err for HRESULT, and leaking memory
+
+    * Fix mux_mp.inf to payload muxvlan.sys
+
+    * Edit to sln and vcxproj files to edit how build directories are made
+
+    * Edit vcxproj files to package correct files. Edit Target name for muxvlan project to be mux so the same inf files can be used for both projects
+
+    * Remove comments
+
+    * Fix mux_mp.inf to payload mux.sys
+
+    * fix mistakes returning win32 err instead of HRESULT, and leaking mem
+
+    * Change comment on mux_mp.inf explaining why build 25341 is used
+
+    * Free lpszBindName before return.
+
+commit 24f196d40fee8c6fb48618ac7c3bc4ff00cdcbe5
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Apr 18 14:26:24 2023 -0700
+
+    [general/simplemediasource] Fix architecture in solution (#977)
+
+commit 9d83452366f0bdca802d068b91f1957c4339078d
+Author: kahashimoto-ms <117399367+kahashimoto-ms@users.noreply.github.com>
+Date:   Thu Apr 13 09:59:25 2023 -0700
+
+    Ndisprot inf violations (#974)
+
+    * Add PnpLockdown=1 to the version section of the inf
+
+    * Change service name to Ndisprot60
+
+    * Change Section 'wdfsection' to 'Install.Wdf' so it can be referenced. Change service to NdisProt60 in that section
+
+    * Change all DIRID to 13
+
+    * Add different manufacturer entires so installtion is different for Windows 7 vs Windows 10 and above
+
+    * Add another manufacturer so the driver installs in DriverStore for newest builds
+
+    * Enable the Control-flow Enforcement Technology (CET) Shadow Stack mitigation
+
+    * Add SAL annotation to the DllCanUnloadNow definition to match declaration
+
+    * Use stampinf ARCH variable to replace hard coded architectures
+
+    * Fix a comment
+
+    * Add the correct build number for installing network drivers using Dlls and update comment.
+
+commit 8526a742cd5721ff53f244bf5071bcf3d27dded6
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Tue Apr 11 10:16:27 2023 -0700
+
+    Update misc projects to use a DriverTargetPlatform of 'Windows Driver' (#972)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 45990c49d5b0f3a8c7716f8f088cd5c4164afcbf
+Author: Julia D'Zmura <78620953+judzmura@users.noreply.github.com>
+Date:   Mon Apr 10 16:17:54 2023 -0700
+
+    Inf Updates to Audio Samples (#970)
+
+    Updating target versions for inf.
+
+commit b440de9ba4181725a68ddcd3cc4ba8c778b88ad7
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Apr 10 15:17:43 2023 -0700
+
+    Update various network projects to use DriverTargetPlatform of 'Windows Driver' (#971)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit b1db23b719ceb9d23454799f1b09c0c53f71aea0
+Merge: 189640fc f28183b7
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Apr 10 14:31:58 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit f28183b782d1f113492f6eea424172f2addaf565
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Apr 10 14:31:24 2023 -0700
+
+    Remove ? operators from build scripts to improve compatibility
+
+commit 189640fc699918e02d79554704906c690895f53a
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Apr 10 13:01:14 2023 -0700
+
+    Update various general projects to use DriverTargetPlatform of 'Windows Driver' (#969)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 19bdef5ff2fb0046d58db16da551b1a0f1394ba1
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Apr 10 08:34:23 2023 -0700
+
+    Update USB projects' DriverTargetPlatform to be 'Windows Driver' (#968)
+
+    Update usb projects' DriverTargetPlatform to be 'Windows Driver'
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit fe08b65f2b7cb6490476181d82dfb21c5ea36c8a
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Apr 7 17:03:07 2023 -0700
+
+    Update pofx projects' DriverTargetPlatform to be 'Windows Driver' (#967)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit feab60e77a91e3f1daff3b9bd1b0c0057a0c9ca9
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Apr 7 17:02:07 2023 -0700
+
+    Update input projects' DriverTargetPlatform to be 'Windows Drivers' (#966)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 5440e4c498a8d4fb08ad105c384ac96cb8c3eeb8
+Author: Gerrit Swaneveld <55601905+gerritsMSFT@users.noreply.github.com>
+Date:   Fri Apr 7 13:48:32 2023 -0700
+
+    [avstream/avscamera] Update hwsim.cpp (#954)
+
+    Add Paged Code Macros
+
+commit e553f426293dc4a244ab6315617456e3c5149f00
+Author: Gerrit Swaneveld <55601905+gerritsMSFT@users.noreply.github.com>
+Date:   Fri Apr 7 13:48:18 2023 -0700
+
+    [avstream/avscamera] Update Capture.cpp (#955)
+
+    Add Paged Code Macro
+
+commit f3711c572641c9f5005dcb44c4bbfda6d40a3281
+Author: Gerrit Swaneveld <55601905+gerritsMSFT@users.noreply.github.com>
+Date:   Fri Apr 7 13:48:00 2023 -0700
+
+    [avstream/avscamera] Update Device.cpp (#956)
+
+    Add Paged Code Macro
+
+commit 14a15b163172854c0314ef47f0dd3388f290120c
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Apr 7 11:55:51 2023 -0700
+
+    Update HID projects' DriverTargetPlatform to be 'Windows Driver' (#965)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 3f5fc4bf0990abb5619377c9162d999f981c497f
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Apr 7 11:54:55 2023 -0700
+
+    Update some biometric projects' DriverTargetPlatform to be 'Windows Driver' (#964)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 9f509fd5ff9a2ca6481d5b2caca96bfdca1b7fbc
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Apr 7 08:50:33 2023 -0700
+
+    Update toaster projects' DriverTargetPlatform to be 'Windows Driver' (#963)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 03dbb616869946fd74cd73efb6ff684da9f60213
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Thu Apr 6 18:49:00 2023 -0700
+
+    Update some filesys projects' DriverTargetPlatform to be 'Windows Driver' (#962)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 5603733767a8387e9e1e8f5ecfb9f2f9cb18539e
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Thu Apr 6 18:01:25 2023 -0700
+
+    Update bthecho sample projects to use a driver target platform of 'Windows Driver' (#961)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 06e54613afa8995f9761ccf66b3c88bc6f434ae2
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Thu Apr 6 13:29:06 2023 -0700
+
+    Update osrfx2_DCHU_base.inx to Include/Needs wudfrd.inf (#960)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 2013b48616d87a7ef6334cb6c424b959cf020ff7
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Wed Apr 5 13:28:34 2023 -0700
+
+    Update file encoding to be UTF-16 LE for misc INFs (#959)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 6643bc05259035e78d5a3be1b28d2130cdeefe06
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Tue Apr 4 17:56:26 2023 -0700
+
+    Update file encoding to UTF-16 LE for printer sample INFs (#958)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit db0f176538ecfdff9eb53e7f62b88a3134ef8d07
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Tue Apr 4 17:13:03 2023 -0700
+
+    Update all network sample INFs to use UTF-16 LE file encoding (#957)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 204beeb16b7cef56d28b201750a67c59fcaff102
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Tue Apr 4 11:53:35 2023 -0700
+
+    Update filesystem filter INF file encoding to be UTF-16 LE (#953)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit f5419dcf0b7dda34bda55b1c0b5e28fc5afdfd28
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Tue Apr 4 11:51:49 2023 -0700
+
+    Address violations in osrfx2_DCHU_extension.inx (#952)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 706716afeecd7172a157164f8d360f1c3360739b
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Mar 31 15:58:34 2023 -0700
+
+    Fix file encoding of various OSR FX2 DCHU samples (#951)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 4ef6624c8ffb641539cdf9db485304ac28f53186
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Mar 31 14:52:29 2023 -0700
+
+    Remove references to XP in INFs (#950)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 1adffc43251aa98f542c5134628f761a9ecfd119
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Mar 31 13:08:50 2023 -0700
+
+    Add PnpLockdown=1 to remaining samples (#949)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 16d01e32ecf371d2000d46fa3e6cec59ff66dc87
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Mar 31 13:05:48 2023 -0700
+
+    Fix up malformed DriverVer directives (#948)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 901112d0fbcf4f000f14c8132ea2639f61d3c482
+Author: kahashimoto-ms <117399367+kahashimoto-ms@users.noreply.github.com>
+Date:   Mon Mar 27 11:34:47 2023 -0700
+
+    Ndisprot630 inf violations (#944)
+
+    * Add PnPLockdown=1 to the veresion section to the inf
+
+    * Added segments to the DriverVer
+
+    * Change Service name to Ndisprot630
+
+    * Edit INF to install used DIRID 13 above a certain release number
+
+    * Change names Install->Install_NC and Install_Update->Install
+
+    * Move things around so Install appears before Install_NC
+
+    * enable the Control-flow Enforcement Technology (CET) Shadow Stack mitigation
+
+    * Network driver INF that target DIRID 13 should only build 25319 or later
+
+    * Update comment
+
+    * Enable CET Shadow Stack compatiblility
+
+commit 730161a9834d4e6f47844383c0891f877444c8fd
+Author: kahashimoto-ms <117399367+kahashimoto-ms@users.noreply.github.com>
+Date:   Mon Mar 27 09:47:20 2023 -0700
+
+    User/kahashimoto ms/ndislwf dirid 13 fix (#945)
+
+    * removed unused Common.Params.reg section
+
+    * Change DIRID from 12 to 13
+
+    * add PnpLockdown = 1 to the version section of the inf
+
+    * Edit inf so that it uses DIRID 13 for installation above certain release
+
+    * add the x86 and ia64 archs that were previously removed for simplicity
+
+    * add comment on why there is a different installation for newer build versions
+
+    * Move sections so updated ones appear first
+
+    * Change Install_Update->Install and Install->Install_NC
+
+    * Enable CET Shadow Stack Compatible
+
+    * remove white space
+
+    * Use the stampinf ARCH variable to replace all the hard coded architectures
+
+    * Network driver INF that use DIRID 13 should only target build 25319 or later
+
+    * Update comment
+
+    * delete some white space
+
+    * Change encoding of inf to UTF-16LE
+
+commit 3035684cf7b5a5dd2ab76e61a8165c0877b5e410
+Author: kahashimoto-ms <117399367+kahashimoto-ms@users.noreply.github.com>
+Date:   Mon Mar 27 09:32:00 2023 -0700
+
+    Ndisprot60 inf violations (#943)
+
+    * Add PnpLockdown=1 to the version section of the INF
+
+    * Add segments to the DriverVer
+
+    * Change Service name from Ndisprot to Ndisprot60 because Ndisprot is reserved
+
+    * Edit INF to install used DIRID 13 above a certain release number
+
+    * Add section Install_Update.Remove.Services
+
+    * Change names Install->Install_NC and Install_Update->Install
+
+    * Move things around so Install appears before Install_NC
+
+    * enable the Control-flow Enforcement Technology (CET) Shadow Stack mitigation
+
+    * Network driver INF that target DIRID 13 should only build 25319 or later
+
+    * Update comment
+
+commit 55787da9a0b0ec1e20c29909041d53f178a815ef
+Author: kahashimoto-ms <117399367+kahashimoto-ms@users.noreply.github.com>
+Date:   Mon Mar 27 09:21:38 2023 -0700
+
+    User/kahashimoto ms/msforwardext inf violation (#941)
+
+    * Add PnpLockdown=1 to the version section of the INF
+
+    * Add segments to DriverVer in INF
+
+    * Change DIRID from 12 to 13
+
+    * Enable the Control-flow Enforcement Technology (CET) Shadow Stack mitigation.
+
+    * Use Stampinf architecture
+
+    * Change the encoding of inf to UTF-16LE
+
+commit 1904b79bdb26196d4dbf50110208b50950e06f4e
+Author: kahashimoto-ms <117399367+kahashimoto-ms@users.noreply.github.com>
+Date:   Fri Mar 24 12:55:13 2023 -0700
+
+    Mspassthroughext arch fix (#942)
+
+    * Use Stampinf architecture
+
+    * Enable the CET Shadow Stack mitigation
+
+    * Change the encoding of inf to UTF-16LE
+
+commit f8738aea301d07eec82147a1ef3b2a48b11209c5
+Author: kahashimoto-ms <117399367+kahashimoto-ms@users.noreply.github.com>
+Date:   Fri Mar 24 12:52:28 2023 -0700
+
+    Netvmini arch fix (#940)
+
+    * Enable stampinf arch replacement for netvmini60
+
+    * delete stray comma
+
+    * Enable stampinf arch replacement for netvmini620
+
+    * Enable stampinf arch replacement for netvmini630
+
+    * Enable stampinf arch replacement for netvmini680
+
+    * Enable the CET Shadow Stack mitigation for each netvmini60,620,630,680 projects
+
+commit afa69cdeeb4644e8cd9a1a567dc91a7f29947a5b
+Author: mvillalpando06 <116905813+mvillalpando06@users.noreply.github.com>
+Date:   Fri Mar 24 12:31:24 2023 -0700
+
+    Fix driver violations for energy team owned drivers (#880)
+
+    * Fix driver violations for energy team owned drivers
+
+    * Address comments
+
+    * remove simbatt wdf inf
+
+    * Fix build failures
+
+    * Fix sampleacpipep inx file
+
+    * re isolate sample acpipep
+
+    * add target os
+
+commit ff0188002091d91e1f36ac2e669ebaf1257e85d2
+Merge: 5c3b6ca0 b9047602
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Mar 21 15:44:51 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit b9047602cf1d918e977e572f085df5bf973f9629
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Mar 21 15:44:34 2023 -0700
+
+    Update README to reference GH Actions doc
+
+commit 5c3b6ca03ceead17b8729f4dbdbc479a4fc81274
+Merge: 688890a2 b9ef9e4e
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Mar 21 15:35:25 2023 -0700
+
+    Merge branch 'main' into develop
+
+commit 688890a21b00c9781e64aa84bfdc58e762973f6a
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Tue Mar 21 14:55:30 2023 -0700
+
+    Add PnpLockdown=1 to file system filter samples (#937)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 0250f5db3ef51843d27570c83dc59acd1c1b14b8
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Mon Mar 20 17:12:34 2023 -0700
+
+    [usb/usbview] Enumerate HostController with multiple DeviceInterfaces (#938)
+
+commit 5ccdeee0a0ee3bafb9a6d2920e0e2fabfef24286
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Fri Mar 17 13:28:05 2023 -0700
+
+    [general/toaster/toastpkg] update INF; remove toastcd (#936)
+
+     - Remove reference to coinstaller. They are deprecated.
+     - Remove support for multiple-arch. No many needs for such a feature, and they do not play well with InfVerif
+     - Remove toastcd folder. They are basically the binary result of sibling folders.
+
+commit d657c7b920b9b32d18ad1b0b25c586494a1c4fef
+Merge: 0ad41656 f43a8271
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Tue Mar 14 14:57:56 2023 -0700
+
+    Merge branch 't/merge-base/main-2023-02-16' into develop
+
+commit 0ad416560c5e2bb12a996d29a22ee74acb1b08e8
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Tue Mar 14 11:56:05 2023 -0700
+
+    Use WudfRd.inf instead of AddService
+
+commit a73c1cd20a5c668ccce29e15fc62ab904c1aa743
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Tue Mar 14 13:27:16 2023 -0700
+
+    Fix file encoding of osrfx2_DCHU_base.inx (#933)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 10d84c5ee0fd313f2021180f901b7d3c5f951ad7
+Author: Heesung Kim <hsebs@naver.com>
+Date:   Tue Mar 14 23:44:24 2023 +0900
+
+    Fix error logging
+
+    `dwErrCode` which is always 0.
+
+commit 198e6dc2c56dadddf1a88b1ddfffacba43167011
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Mar 13 17:03:14 2023 -0700
+
+    INFs using DIRID 13 should target only build 16299 or later - remaining updates (#930)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 336cb2f16b38129a6a1fd2cf24deab80aaef654f
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Mar 13 16:58:29 2023 -0700
+
+    INFs using DIRID 13 should target only build 16299 or later - misc general updates (#929)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 5f8fffcb34404fdc929e835b756a083d74fd533d
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Mar 13 16:54:54 2023 -0700
+
+    INFs using DIRID 13 should target only build 16299 or later - network updates (#928)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 3dc2444a6f728a59ed17db41b9b3a43d01b03285
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Mar 13 16:50:51 2023 -0700
+
+    INFs using DIRID 13 should target only build 16299 or later - HID and Input updates (#927)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 9a288c48adfb093d3fe1436d2433c14b743bf447
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Mar 13 16:47:40 2023 -0700
+
+    Fix TargetOSVersion for INFs with UMDF drivers. Fix comments in toaster samples (#926)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit cfc659babba6133028ade3cf571c6b90922fc273
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Mar 13 16:39:56 2023 -0700
+
+    INFs using DIRID 13 should target only build 16299 or later - USB updates (#925)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 728ec466537c4d46104323c2c77f113ac16598e2
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Mar 13 08:47:30 2023 -0700
+
+    INFs using DIRID 13 should target only build 16299 or later - toaster updates (#924)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 1f3fcf168dc9884af735facc5de233e17ea880c2
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Thu Mar 9 16:04:23 2023 -0800
+
+    INFs using DIRID 13 should target only build 16299 or later - audio updates (#923)
+
+    INFs using DIRID 13 should only target build 16299 and later - audio updates
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 7d7f9388ae3077ca010a719dbcd3da0534272046
+Author: Julia D'Zmura <78620953+judzmura@users.noreply.github.com>
+Date:   Thu Mar 9 10:19:19 2023 -0800
+
+    Updates to Sysvad and SimpleAudioSample. (#917)
+
+    * Updates to Sysvad and simpleAudioSample.
+
+    * Changing dash to ASCII.
+
+commit b9ef9e4ed67fc2865d72ed2bb0edb1d9d87ab7ec
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Tue Feb 14 15:40:42 2023 -0800
+
+    Enable the CodeQL workflow to pull submodules similar to the regular workflow. (#883)
+
+    user-jakobl-codeql-submodules
+
+commit 11a494392109600fe4dafdf60843e3864af7e3a2
+Merge: 8ef4a1ca f43a8271
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Wed Mar 8 10:20:12 2023 -0800
+
+    Merge branch 't/merge-base/main-2023-02-16'
+
+commit f43a827103c3412bbbf500af26fda04625e95b22
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Tue Mar 7 21:51:56 2023 -0800
+
+    [usb/usbview] Fix wrong-type-format-argument (#915)
+
+commit be97ab4846375ead2c997517ade7127fd123eeea
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Tue Mar 7 21:51:56 2023 -0800
+
+    [usb/usbview] Fix wrong-type-format-argument (#915)
+
+commit 670397ed629b8488beef603d5a6659f104e85e16
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Tue Mar 7 17:49:46 2023 -0800
+
+    Remove UMDF v1 samples - nfp (#912)
+
+    [UMDF v1] Remove nfp/net/driver/NetNfpProvider
+
+commit 91e07c437248cb21f5113a5f65780447abc40823
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Tue Mar 7 11:52:41 2023 -0800
+
+    [general\echo\umdf2] Add TargetOSVersion to INF file (#911)
+
+commit 7d5c202eddde517fe5546452d83c36cf42381f8a
+Author: Julia D'Zmura <78620953+judzmura@users.noreply.github.com>
+Date:   Tue Mar 7 11:32:48 2023 -0800
+
+    Adding the AudioCodec ACX sample driver to Github. (#882)
+
+    * Adding the AudioCodec acx sample driver to Github.
+
+    * Fix to make AudioCodec driver all build in one solution file. Builds in ARM64 now.
+
+commit e802b80eaf6b0e949b6fbcecac633da37a71ced7
+Author: Michael Bernstein (MSFT) <99994515+michbern-ms@users.noreply.github.com>
+Date:   Tue Mar 7 09:31:41 2023 -0800
+
+    Opt many samples in for Universal validation (#910)
+
+    * Opt-in many Desktop samples for ApiValidator
+
+    ApiValidator is passing for many of our samples
+    marked Desktop.  This is promising and it is worth
+    running ApiValidator on these to ensure they stay within
+    the Universal API limits.
+
+    * Shift avstream/sampledevicemft sample to use mfcore.dll rather than mf.dll
+
+    * Opt many samples in for Universal validation
+
+    Many of our driver samples build cleanly agains the UniversalDDIs.xml
+    API list.  Opting these in as Universal helps protect their API surface
+    against accidentally picking up more Desktop-only APIs.
+
+    * Revert "Opt-in many Desktop samples for ApiValidator"
+
+    This reverts commit a6aa7e6797ab01e6b15c8a4e1cbcea6d7a615629.
+
+    ---------
+
+    Co-authored-by: Michael Bernstein (DPLAT) <Michael.Bernstein@microsoft.com>
+
+commit f88606bdb639139af570c2881c2d62ea077e369e
+Merge: a24dcb82 c3c81998
+Author: NateD-MSFT <34494373+NateD-MSFT@users.noreply.github.com>
+Date:   Mon Mar 6 16:55:32 2023 -0800
+
+    Merge pull request #905 from microsoft/u/wm1/UcmUcsiAcpi-no-paged-code
+
+    [usb/UcmUcsiAcpiSample] Missing PAGED_CODE() macros
+
+commit a24dcb8231e3ed597ca46bdc1cdcec1c1ee6d6ac
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Mar 3 17:03:26 2023 -0800
+
+    Fix up some of the malformed DriverVer directives (#909)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 24caf7a578bfb4c6108afcfbf4a7d4354d5f4a59
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Mar 3 14:37:28 2023 -0800
+
+    Remove BasicDriverOk from samples (#908)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit e4fec231def3b751b0f717855737317a4a2edbac
+Author: katiezb <115045945+katiezb@users.noreply.github.com>
+Date:   Wed Mar 1 10:34:21 2023 -0800
+
+    Archiving storage\class\cdrom sample (#904)
+
+    The following sample is being archived but can still be accessed using:
+    git checkout win11-22h2
+
+    or by accessing this link:
+    https://github.com/microsoft/Windows-driver-samples/tree/win11-22h2
+
+commit 800278d3a66158b2f0f7eb6e9ce880bedb54def3
+Author: katiezb <115045945+katiezb@users.noreply.github.com>
+Date:   Wed Mar 1 10:32:28 2023 -0800
+
+    Archiving storage/sfloppy sample (#903)
+
+    The following sample is being archived but can still be accessed using:
+    git checkout win11-22h2
+
+    or by accessing this link:
+    https://github.com/microsoft/Windows-driver-samples/tree/win11-22h2
+
+commit c68ea4b3f8dbcd9a83da004ce74b2e7a08e872b2
+Merge: db52e5ab 94211c3b
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Tue Feb 28 21:30:07 2023 -0800
+
+    [serial/serenum] Use ExAllocatePool2 instead of ExAllocatePoolWithTag
+
+commit 94211c3b2ecac957923bbfa22031f96d8fe5e0c7
+Author: Matthew Williams <matwilli@microsoft.com>
+Date:   Tue Feb 28 17:51:15 2023 -0800
+
+    serenum sample: Use ExAllocatePool2 instead of ExAllocatePoolWithTag
+
+commit 8ef4a1cacff8c9967d870f9bfdfa8b3f21754a7f
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Wed Feb 22 14:55:25 2023 -0800
+
+    Merge pull request #900 from microsoft/simdevice_encoding
+
+    Simdevice encoding
+
+commit c3c819984f2cfbbddff42c747efe65e5c1aea7f7
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Mon Feb 27 17:23:46 2023 -0800
+
+    [usb/UcmUcsiAcpiSample] Missing PAGED_CODE() macros
+
+commit db52e5abff5dbee7d3a26a4ed867f7a6634dc1b6
+Merge: f6ca50b3 708d8c43
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Wed Feb 22 14:55:25 2023 -0800
+
+    Merge pull request #900 from microsoft/simdevice_encoding
+
+    Simdevice encoding
+
+commit 708d8c438537aa83673a1d6ba4cf05667c487ae0
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Wed Feb 22 14:46:57 2023 -0800
+
+    Fix file encoding and driverver format
+
+commit f6ca50b35ec6529ef5a089f3143fff9e83af5863
+Merge: 3e34aa0b 0b22a5da
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Feb 16 16:20:57 2023 -0800
+
+    Merge branch 'main' into develop
+
+commit 0b22a5da3df0d570a39681ffdd256cd876c30047
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Feb 16 16:19:48 2023 -0800
+
+    Rename build instructions file to avoid conflicts with root README + small fix
+
+commit 3e34aa0baad89cab3adec1d2194694a4fe832263
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Feb 16 16:19:48 2023 -0800
+
+    Rename build instructions file to avoid conflicts with root README + small fix
+
+commit 080e9622071a08ccf89039520650958c09e1dcd4
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Feb 14 14:59:33 2023 -0800
+
+    Fix logging when there are errors (#881)
+
+commit 7a69a1a22bd533200c8725683f46b014cd1339cd
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Wed Feb 15 10:28:26 2023 -0800
+
+    Fix InfVerif 1235 errors in some sample INFs (#885)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 2a557292b6cc8487f370275d5323fce3d86ddda7
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Tue Feb 14 16:52:04 2023 -0800
+
+    Update DCHU sample INFs to restrict themselves to only OS versions they work on (#884)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 500494c4871b3c3ecc42414d9f75a4078cd9e613
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Tue Feb 14 15:40:42 2023 -0800
+
+    Enable the CodeQL workflow to pull submodules similar to the regular workflow. (#883)
+
+    user-jakobl-codeql-submodules
+
+commit d3a40cb5025ad7f529b496ebc28f4f5a2b9a2643
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Feb 14 14:59:33 2023 -0800
+
+    Fix logging when there are errors (#881)
+
+commit 13b58897edadaca87ffff979bbf3283258c447e5
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Feb 13 09:43:55 2023 -0800
+
+    Update VhidminiUm.inf to only target OS versions it works on (#868)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit ff0af974e1045f62cae76cb9dc4b204a5b53ad44
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Feb 13 09:27:15 2023 -0800
+
+    Fix biometric sample to only install on OS versions it can support (#867)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit f7a4f930dedce175e4712f0299359e623a01d339
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Thu Feb 9 12:31:05 2023 -0800
+
+    FI from main to develop.  No functional change. (#865)
+
+    Enable CodeQL to work thru reasonable workarounds - Cherry pick to main (#863)
+
+    Enable CodeQL to work thru reasonable workarounds.  (#857)
+
+commit 1e3a4568571dc5bc3bee31e2b741917ee6900cce
+Author: Gerrit Swaneveld <55601905+gerritsMSFT@users.noreply.github.com>
+Date:   Wed Feb 8 17:05:01 2023 -0800
+
+    Update Camera Public Samples to use target platform of 'Windows Drivers' (#864)
+
+    * Remove invalid INF DeviceInstall32
+
+    Removes from the sample an invalid API call.
+
+    * Update to SimpleMediaSource.inf
+
+    Fixes to use public installation path
+
+    * Fix to Public Samples to be Windows Drivers compliant
+
+    Update AvsCamera, AvsCameraMFT0, Avshws, Avsamp, and MultipinMFT samples to be Windows Driver Compliant
+
+    * Filters Edit
+
+    Fix Filters files autogenerated by VS
+
+commit d717aac5bd009f63670f1e164bacf2972931de1d
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Wed Feb 8 15:36:56 2023 -0800
+
+    Enable CodeQL to work thru reasonable workarounds - Cherry pick to main (#863)
+
+    Enable CodeQL to work thru reasonable workarounds.  (#857)
+
+commit f0282ae24f7559771c78d7ba5b8e660329fbef51
+Author: Shiselster <Shiselster@users.noreply.github.com>
+Date:   Thu Feb 9 00:08:56 2023 +0200
+
+    Update README.md (#530)
+
+    In order to launch the Device Manager, the command is **devmgmt.msc** and not simply **devmgmt**.
+
+commit 8b16c8bf22a36f757ed0eda94e07aadff747bac6
+Author: Hanwool Park <nanometre380@gmail.com>
+Date:   Thu Feb 9 07:06:49 2023 +0900
+
+    Update filter.h (#544)
+
+commit c48bf7dd5c31141b4ea5a355801b9f5a5ee36113
+Author: Rod Widdowson <rdw@steadingsoftware.com>
+Date:   Wed Feb 8 22:02:54 2023 +0000
+
+    Fix typo in comment (#557)
+
+    The code grabs the FCB SHARED, not Ex
+
+commit 387bec9ffc8439b5a331500ca0baf7b7f4b19d14
+Author: astro <68482847+vxcute@users.noreply.github.com>
+Date:   Wed Feb 8 23:57:25 2023 +0200
+
+    Remove un-used macro NULL_FILTER_FILTER_NAME (#641)
+
+    Update nullFilter.c
+
+commit d4b1a007860a45650a81be4ca773a4cb93631f42
+Author: naruto0426 <64766327+naruto0426@users.noreply.github.com>
+Date:   Thu Feb 9 03:21:33 2023 +0800
+
+    fix the characters that are not unicode to build without problem (#784)
+
+commit 4618ec0b08c943b0f45ad7fed89cc22c615a054e
+Author: Hiroshi Yoshioka <40815708+hyoshioka0128@users.noreply.github.com>
+Date:   Thu Feb 9 04:05:45 2023 +0900
+
+    Typo "accpeted"Å®"accepted" (#838)
+
+    https://github.com/microsoft/Windows-driver-samples/blob/main/pofx/PEP/acpi/acpispecific.c
+    #PingMSFTDocs
+
+commit fe1031f76b5d4c851a3dbf1edb658815f75d25d3
+Author: tenglu83 <tai_xian@hotmail.com>
+Date:   Wed Feb 8 10:08:15 2023 -0800
+
+    Update NFC sample driver for Windows Driver Compliance (#851)
+
+    * Install driver to driver store.
+    Include reference to wudfrd.inf
+
+    * Update windows-drivertemplate-nfc.inf
+
+    Save the INF file in UTF-8 code.
+
+    * Update windows-drivertemplate-nfc.inf
+
+    Remove WUDFRD_ServiceInstall from INF
+
+    * Remove unnecessary CoInstallers
+
+    * Change INF coding to UTF-16 LE
+
+    ---------
+
+    Co-authored-by: Teng Lu <tenglu@microsoft.com>
+
+commit ced42ffc4109cba578e0c35a568a74710d50b2b8
+Author: jk <jitesh_krishnan@yahoo.com>
+Date:   Tue Feb 7 15:44:24 2023 -0800
+
+    Change the locking scheme in DMFT to unlock in setoutputstreamstate (#810)
+
+    A change in device transform manager brought about a deadlock scenario in DMFT sample. The sample now behaves like we have in the rest of the pipeline i.e. we release the lock and wait for the operations on the input pins to complete. This hang is responsible for AMD hangs.
+
+commit 208b227667182dfcd7bdf3ab4f5090aa823cf477
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Tue Feb 7 15:36:48 2023 -0800
+
+    Enable CodeQL to work thru reasonable workarounds.  (#857)
+
+commit 9ab70a3207b3586eeef00298911b05e425d5a3a9
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Tue Feb 7 10:30:40 2023 -0800
+
+    Clean up a few misc things after merge of main into develop (#859)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 767074e4950e2050cd143db2d1a38687f7a1ea33
+Merge: 17719218 55f0ae52
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Feb 6 18:02:43 2023 -0800
+
+    Merge pull request #855 from microsoft/develop-2302-merge
+
+    Merge 'main' into 'develop'
+
+commit 55f0ae520655ba8054a1fa97d9f60ea8d230b989
+Merge: c0174c77 08607873
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Feb 3 14:44:52 2023 -0800
+
+    Merge branch 'main' into develop-2302-merge
+
+commit 08607873c07b796e912560b7fa359b06e1a21404
+Author: JakobL-MSFT <110699333+JakobL-MSFT@users.noreply.github.com>
+Date:   Fri Feb 3 14:43:16 2023 -0800
+
+    Incremental improvements of the sample build system (#849)
+
+commit c0174c77c5dbed96d4e537c08b1504cd6b9a3134
+Merge: 520c3708 07779ee8
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Feb 3 14:36:05 2023 -0800
+
+    Merge branch 'main' into develop-2302-merge
+
+commit 177192185e6ad176087849b7046411167954fb39
+Author: kahashimoto-ms <117399367+kahashimoto-ms@users.noreply.github.com>
+Date:   Fri Feb 3 11:42:35 2023 -0800
+
+    mspassthroughext Driver compatibility violations (#846)
+
+    * Add PnpLockdown to the version section of the INF
+
+    * Add segments to DriverVer
+
+    * Change DIRID from 12 to 13
+
+commit 54a98a7e6af65ebc3a8ec92c7c09d94d0b44a6fd
+Author: Julia D'Zmura <78620953+judzmura@users.noreply.github.com>
+Date:   Thu Feb 2 15:53:08 2023 -0800
+
+    Updates to make Sysvad and SimpleAudioSample Windows Drivers Compliant (#845)
+
+    Updating sysvad and simpleaudiosample drivers.
+
+commit 07779ee84973f2f63a1f2ced6377463b1c01baaf
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Jan 30 15:00:49 2023 -0800
+
+    Build scripts update (#844)
+
+    ---------
+
+    Co-authored-by: Jakob Lichtenberg (170957) <jakobl@microsoft.com>
+
+commit 520c37087776a198544ab9b721d802dd30864736
+Merge: b35c9d13 710cb209
+Author: Cymoki <Cymoki@Microsoft.com>
+Date:   Wed Jan 25 11:34:08 2023 -0800
+
+    Merge pull request #841 from microsoft/Cymoki-patch-3
+
+    Create Test.txt
+
+commit 710cb209787a9aac0b913b3670d51edd41c94a74
+Author: Cymoki <Cymoki@Microsoft.com>
+Date:   Wed Jan 25 11:21:43 2023 -0800
+
+    Create Test.txt
+
+commit 2c0c8763300988d92ddd139cadf012f5ab1b12e1
+Merge: 29709008 1a9dffb3
+Author: Laura <lagonza@microsoft.com>
+Date:   Wed Jan 18 15:25:21 2023 -0800
+
+    Merge pull request #826 from microsoft/lagonzacodescanning-reconfig
+
+    Re Configure Code-Scanning.yml
+
+commit b35c9d13274e237eea8abdd5fb06c5f29429fddb
+Author: alexke-dev <65682333+alexke-dev@users.noreply.github.com>
+Date:   Wed Jan 18 11:51:27 2023 -0800
+
+    Update TestMcro sample to target a single architecture and support best practices (#837)
+
+    * Update TestMcro sample to target a single architecture.
+
+    * Update copywia.cmd to use the new path for the TestMcro.inf file.
+
+    * Restore missing BOM to vcxproj file.
+
+commit 29709008d34efefd594d7da5ef67ee0d66f615fd
+Merge: 13092c63 38434bf5
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Sun Jan 15 16:30:47 2023 -0800
+
+    Merge pull request #836 [general/toaster] Update GetDeviceDescription
+
+commit 38434bf5c6409cf9243b34c13e837d093c777f56
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Sun Jan 15 16:16:55 2023 -0800
+
+    [general/toaster] Update GetDeviceDescription
+
+commit 13092c638c30acbe2dec7d4be53d0d0d5bfb7487
+Merge: 8ff2c86a 217e46c9
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Sun Jan 15 15:37:52 2023 -0800
+
+    Merge pull request #834 - Update WDF samples to use DIRID=13 (Driver Store)
+
+    ## Why is this change being made?
+    [Driver package isolation](https://learn.microsoft.com/en-us/windows-hardware/drivers/develop/driver-isolation) is a requirement for Windows Drivers that makes driver packages more resilient to external changes, easier to update, and more straightforward to install.
+
+    One of such requirements is to for driver to [run from the driver store](https://learn.microsoft.com/en-us/windows-hardware/drivers/develop/run-from-driver-store), which means to use `DIRID = 13` in INF file, `DestinationDirs` section and `ServiceBinary` directive.
+
+    ## What changed?
+    Update generic WDF samples to use DIRID = 13. Specifically, it touches the following sample folders:
+     - general, toaster, usb, hid, input, serial, pofx, spb, wmi
+
+    Note it does not touch areas that are owned by individual driver classes, e.g., network, storage, file system.
+
+    This change does mean that the sample **won't work on older OS** (prior to Win10 version 1809) where DIRID 13 is not fully supported. To find the original sample, please look at https://github.com/microsoft/Windows-driver-samples/tree/win11-22h2.
+
+commit 217e46c9844145bf0bee397a916ddc5bffe26d02
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Sun Jan 15 14:54:25 2023 -0800
+
+    Fix: Invalid flag 0x4000, cannot be used with DIRID 13
+
+commit 8b17742dda77e6ae08fb8bbda9b97943f2efd454
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Fri Jan 13 22:12:38 2023 -0800
+
+    [DirID-13] usb
+
+    Change INF files with the following:
+     - Use Driver Store DirID = 13 which are available starting Windows 10 1809
+     - Remove WDF coinstaller
+     - Add PnpLockdown = 1
+
+commit 51fed2a629bc5b15e6bdc43e6eeeb2be74c28870
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Fri Jan 13 21:35:44 2023 -0800
+
+    [DirID-13] hid, input, pofx, serial, spb, wmi
+
+    Change INF files with the following:
+     - Use Driver Store DirID = 13 which are available starting Windows 10 1809
+     - Remove WDF coinstaller
+     - Add PnpLockdown = 1
+
+commit 43abc35b1ce93067cb0dbfbe7f26c2f01974f78a
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Fri Jan 13 12:58:53 2023 -0800
+
+    [DirID-13] toaster sample drivers
+
+    Change INF files with the following:
+     - Use Driver Store DirID = 13 which are available starting Windows 10 1809
+     - Remove WDF coinstaller
+     - Add PnpLockdown = 1
+
+commit 66123ff99f94cab467a2e6b558e04f76c0055c55
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Fri Jan 13 11:50:48 2023 -0800
+
+    [DirID-13] echo, pcidrv, plx9x5x, vhidmini, serial, virtualserial2, usbsamp, usb/ucm
+
+    Change INF files with the following:
+     - Use Driver Store DirID = 13 which are available starting Windows 10 1809
+     - Remove WDF coinstaller
+     - Add PnpLockdown = 1
+
+commit 8cfa11c4cc71344667cb797ee46101a988972e03
+Author: dnl-q <45866298+dnl-q@users.noreply.github.com>
+Date:   Fri Jan 13 10:30:47 2023 -0800
+
+    Update BthEchoSampleCli and BthEchoSampleSrv to be single architecturÅc (#825)
+
+    * Update BthEchoSampleCli and BthEchoSampleSrv to be single architecture targeted and the specific build architecture is stamped at the time it is built.
+
+    * Remove long deprecated WDF coinstaller references.
+    Rename CopyFiles section from Drivers_Dir to DriverStore_Dir.
+    Revert TargetOSVersion for the Models sections to NT$ARCH$...1, the same as before without my changes.
+
+    * Address more PR feedbacks and update README.md.
+
+    Co-authored-by: Hongwei Qi <hongweiq@microsoft.com>
+
+commit 8ff2c86adcfbe50187d2aeb38a842095b137b7e4
+Merge: 92042ea4 948b220e
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Fri Jan 13 00:49:41 2023 -0800
+
+    [UMDF v1] Remove General, USB, serial
+
+commit 948b220e8bd0819d5b340c06c969c497556da950
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Wed Jan 11 18:38:29 2023 -0800
+
+    [UMDF v1] Remove usb/wdf_osrfx2_lab/umdf
+
+commit b617d6b6b37a1db17fa120065ab3189e91fbb440
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Wed Jan 11 18:21:11 2023 -0800
+
+    [UMDF v1] Remove usb/umdf_filter_kmdf, usb/umdf_filter_umdf, usb/umdf_fx2
+
+commit 5c647868e2f8968e2a490bc02da304020405fcce
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Wed Jan 11 17:49:06 2023 -0800
+
+    [UMDF v1] Remove serial/VirtualSerial/ComPort/virtualserial, fakemodem
+
+commit 5bc6b56aef39e19add03297afe0c36168f370dc4
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Wed Jan 11 13:07:12 2023 -0800
+
+    [UMDF v1] Remove general/umdfSkeleton
+
+commit adb6644fc7de6b42215ff2ceaded3f65e8e40504
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Wed Jan 11 13:05:27 2023 -0800
+
+    [UMDF v1] Remove general/toaster/toastDrv/umdf/func, Toastmon
+
+commit f0514c905ed3b8c82ec5a3340e8e5d1977ac444e
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Wed Jan 11 12:47:52 2023 -0800
+
+    [UMDF v1] Remove general/echo/umdf, umdfSocketEcho
+
+commit 92042ea4305ded0b44ae538b9fe31d56a4bb80e2
+Author: Gerrit Swaneveld <55601905+gerritsMSFT@users.noreply.github.com>
+Date:   Thu Jan 12 13:47:18 2023 -0800
+
+    Remove invalid INF DeviceInstall32 (#811)
+
+    * Remove invalid INF DeviceInstall32
+
+    Removes from the sample an invalid API call.
+
+    * Update to SimpleMediaSource.inf
+
+    Fixes to use public installation path
+
+commit 5934a938b649e0354fa9a138db6bb5bdffd00332
+Author: Matt Moseley <52799792+matthesoundman@users.noreply.github.com>
+Date:   Thu Jan 12 13:20:48 2023 -0800
+
+    Fix unused warning (#829)
+
+    - removed the [ToastMonBuggy] section to eliminate emitted warning
+
+commit 1a9dffb3c5be9cd8b78f9630c9a1f3f1e5171b44
+Author: Laura <lagonza@microsoft.com>
+Date:   Tue Jan 10 13:23:11 2023 -0800
+
+    Remove capture of changed files
+
+    Remove capture of changed files as they are unneeded in this workflow. We will build all files to create a baseline.
+
+commit 34faeba5a76ceea2731c5620a396c0a2ddb112f9
+Author: Laura <lagonza@microsoft.com>
+Date:   Mon Jan 9 17:59:25 2023 -0800
+
+    Re Configure Code-Scanning.yml
+
+    In accordance with this issue https://github.com/github/codeql-cli-binaries/issues/149 I have reconfigured to run code scanning on all PR's (to include text only changes) and adjusted the build command to build all solutions, not just the changed ones.
+
+commit 921e951006d8cb403d59f9747c5495686a4aaed0
+Author: Matt Moseley <52799792+matthesoundman@users.noreply.github.com>
+Date:   Mon Jan 9 13:32:41 2023 -0800
+
+    Update to DV-FailDriver-WDM (#823)
+
+    * Removed unsupported install section
+
+    - This change removes the unsupported install method from the .inf file.
+
+    * Updated readme with DevGen example
+
+    - Add section to readme to encourage the usage of DevGen.
+    - Added example of how to use DevGen when installing sample driver.
+
+    * Update readme
+
+    - updated README.md based on the given suggestions
+
+    * More updates to readme
+
+    - added link to SwDevice
+    - fixed missing back tick
+
+commit 568ddda9b180706e03ead12e2e99bc46cd33a0a6
+Author: alexke-dev <65682333+alexke-dev@users.noreply.github.com>
+Date:   Fri Jan 6 16:36:29 2023 -0800
+
+    Update ProdScan and WiaDriver samples (#824)
+
+    Update ProdScan and WiaDriver samples to target a single architecture.
+
+commit 7092f6df0e6e86f16dc4e7a11ea8eefbdb1c6da8
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Tue Jan 3 13:07:39 2023 -0800
+
+    Remove IA64 support from more samples (#816)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 995dd623433e1edac83bc80f812ec33d30d967cf
+Merge: e582f2a3 85444c82
+Author: Laura <lagonza@microsoft.com>
+Date:   Thu Dec 29 13:14:35 2022 -0800
+
+    Merge pull request #820 from microsoft/lauragonzalezzz/remove-redundant-workflow
+
+    Deletes CodeQL-Analysis Workflow
+
+commit e582f2a3b158adc2d254100666e4ff8ec583f28c
+Merge: 45b95c2a f1c16194
+Author: Laura <lagonza@microsoft.com>
+Date:   Thu Dec 29 12:33:02 2022 -0800
+
+    Merge pull request #818 from microsoft/lauragonzalezzz/configure-code-scanning-alerts
+
+    Create Code-Scanning.yml
+
+commit 85444c82b289545bbdb0c9a64e50ec68ae9e49c3
+Author: Laura <lagonza@microsoft.com>
+Date:   Thu Dec 29 12:04:39 2022 -0800
+
+    Deletes CodeQL-Analysis Workflow
+
+    GitHub did not register this workflow as the one associated with the Code Scanning security feature.
+    Therefore I have a separate PR https://github.com/microsoft/Windows-driver-samples/pull/818 which established the workflow through the security menu.
+
+    This workflow is identical to that one except for a syntax fix in the designation of which types of file updates do not trigger the workflow.
+
+commit f1c1619463ab46254a70cae472e68c5a3d5eb7c6
+Author: Laura <lagonza@microsoft.com>
+Date:   Tue Dec 27 18:56:56 2022 -0800
+
+    Updates Code Scanning Exclusion
+
+    Excludes all files within the .github directory from triggering the Code Scanning workflow.
+
+commit 8fd48bb75b46679534c549839ea0595d057178c7
+Author: Laura <lagonza@microsoft.com>
+Date:   Tue Dec 27 18:32:36 2022 -0800
+
+    Create Code-Scanning.yml
+
+    This file is identical to the existing workflow except that it has been created via the GitHub Security Code Scanning menu, which registers the workflow with the Code Scanning triggers unlike the existing workflow. If this successfully meets the Security requirements, the next commit will remove the duplicate workflow.
+
+commit ed2dc1c4cd26fca2453916d9322b672eb82f0258
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Thu Dec 15 16:39:10 2022 -0800
+
+    Remove IA64 support from Print samples (#815)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 73d9bad032716b5ceab7b4abbd9569b57efcaace
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Dec 12 16:57:42 2022 -0800
+
+    Clean up some infverif warnings and errors in print samples (#814)
+
+    Co-authored-by: Jason Knichel <jknichel@ntdev.microsoft.com>
+
+commit 45b95c2ad0f3100525deb6c0c35dcbc37e7025b5
+Author: Laura <LG3295@gmail.com>
+Date:   Thu Dec 8 17:36:11 2022 -0800
+
+    Creates CodeQL-Analysis Workflow (#813)
+
+    Creates CodeQL-Analysis workflow to run the latest CodeQL CLI and cpp rules against driver solutions which have changed.
+
+    This is a CI mechanism to alert if there are CodeQL violations in projects which have been changed since the last commit.
+
+commit 076552ed9a3011637ab67a93501b662f3cb1bcff
+Author: kahashimoto-ms <117399367+kahashimoto-ms@users.noreply.github.com>
+Date:   Fri Dec 2 16:56:55 2022 -0800
+
+    Netvmin680 fix (#805)
+
+    * add NDIS_SUPPORT_NDIS680 in #if directive in adapter.c
+
+    * add NDIS_SUPPORT_NDIS680 in #if directive in miniport.c
+
+    * fix driver isolation violation 1323 for netvmini680.inf
+
+    * fix driver isolation violation 1322 for netvmini680.inf
+
+    * set NIC_PHYSICAL_MEDIUM to NdisPhysicalMedium802_3 in hardware.h
+
+    * change local type from ULONG to UINT8 to match return type
+
+    * Remove AddReg TextModeFlags in inf for netvmini680
+
+commit f2b86750194e47fb9a1ea9e8caefca17d98e2a1a
+Author: janasebaali <98133645+janasebaali@users.noreply.github.com>
+Date:   Fri Dec 2 14:50:25 2022 -0800
+
+    Update HelperFunctions_ThreadsAndEvents.cpp (#798)
+
+    correct logging statement
+
+commit 017872812677324225c59437f3fd38ef0a1b2ae1
+Author: kahashimoto-ms <117399367+kahashimoto-ms@users.noreply.github.com>
+Date:   Fri Dec 2 14:40:39 2022 -0800
+
+    Fix driver isolation violations 1322 and 1323 for netvmini (60, 620, 630) drivers. (#803)
+
+    * fix driver isolation violations 1322 1323 for netvmini60.inf
+
+    * fix driver isolation violations 1322 1323 for netvmini620.inf
+
+    * fix driver isolation violations 1322 1323 for netvmini630.inf
+
+    * change local type from ULONG to UINT8 to match return type
+
+    * Remove AddReg TextModeFlags in inf for netvmini60
+
+    * Remove AddReg TextModeFlags in inf for netvmini620
+
+    * Remove AddReg TextModeFlags in inf for netvmini630
+
+commit 3dd49a6581ed0c9657cc9734c5432c825f3e46bf
+Merge: e7fc00e2 37d18d3f
+Author: Adonais Romero Gonzalez <seromero@microsoft.com>
+Date:   Mon Nov 28 15:57:31 2022 -0800
+
+    Merge branch 'main' into develop
+
+commit 37d18d3f0eec68d1804b9e324a6ea0feab6d6185
+Author: Pranav Sharma <vanarps@gmail.com>
+Date:   Mon Nov 28 15:56:35 2022 -0800
+
+    [network/wlan/WDI] Fix Mismatched Type Comparisons (#715)
+
+    * fix wider type comparisons
+    * fix resulting mismatched types
+
+commit e7fc00e292d320a3edfbcecc33e92e2d516505b8
+Merge: 82537c2a e25d94bd
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Mon Nov 28 13:20:31 2022 -0800
+
+    Merge pull request #807 from jasonknichel/user/jknichel/HopefullyFixDevelopBranch
+
+    Hopefully fix develop branch error in these header files
+
+commit e25d94bd373c807497b6087b7be3761476751d25
+Author: Jason Knichel <jknichel@ntdev.microsoft.com>
+Date:   Mon Nov 28 12:35:20 2022 -0800
+
+    Hopefully fix develop branch error in these header files
+
+commit 82537c2a1da27908ffbc5d98a7ad77e6af0956c8
+Author: taj0207 <taj0207@gmail.com>
+Date:   Wed Nov 9 11:31:14 2022 -0800
+
+    Add mobile broadband mbbcx client driver sample code (#797)
+
+commit 96e23c8f1172e227122de5c66390e8e5b4028831
+Merge: f20a0131 d3cf84a5
+Author: Adonais Romero Gonzalez <seromero@microsoft.com>
+Date:   Wed Nov 2 17:11:27 2022 -0700
+
+    Merge branch 'main' into develop
+
+commit d3cf84a5118cd2aec491aaa4e4d0b9a57eb384ba
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Oct 18 16:47:17 2022 -0700
+
+    Upgrade actions environment to Windows 2022 (#794)
+
+commit f20a01318ddb570731de91f62e94b37550139b28
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Fri Oct 14 13:50:18 2022 -0700
+
+    Fix some infverif 1203 (missing section) and 1324 (no PnpLockdown=1) errors (#793)
+
+    * Clean up some misc infverif 1203 errors
+    * Clean up some infverif 1324 (no PnpLockdown=1) errors
+
+commit d475c9bca937ddbd72b8b423783a140356306fb0
+Author: îñåiêm <bjrxyz@sina.com>
+Date:   Tue Oct 11 06:24:56 2022 +0800
+
+    [usb/usbview] fix infinite loop (#792)
+
+commit 803a5e44ac3abf4a847d9164c5788296efa80f02
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Thu Oct 6 10:22:17 2022 -0700
+
+    Add PnpLockdown=1 to more sample INFs (#790)
+
+commit fe08ec9700c65d38a6deb79d51753ea4a19e465b
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Wed Oct 5 15:42:41 2022 -0700
+
+    Add PnpLockdown=1 to a bunch of sample INFs (#789)
+
+commit 509c49d0192b84de459fdfae9bd8c1e16f6cafa0
+Author: Jason <jasonknichel@users.noreply.github.com>
+Date:   Wed Oct 5 11:55:25 2022 -0700
+
+    [smartcrd\pscr] Get pscr sample building properly (#788)
+
+commit 62b5e8faba904292fa02b91effad5d5e0d0bd9bb
+Author: Adonais Romero Gonzalez <seromero@microsoft.com>
+Date:   Mon Sep 26 16:08:26 2022 -0700
+
+    [general/filehistory] Remove sample; APIs have been deprecated
+
+commit 796a74541773193357b19e75fc883003cd522ca4
+Merge: b6812b8d fe277cd0
+Author: Adonais Romero Gonzalez <seromero@microsoft.com>
+Date:   Mon Sep 26 16:06:31 2022 -0700
+
+    Merge branch 'main' into develop
+
+commit fe277cd05fb1e0362af65b45777e20dfe251dbcf
+Author: Adonais Romero Gonzalez <seromero@microsoft.com>
+Date:   Mon Sep 26 16:05:55 2022 -0700
+
+    Fix exclusions file format
+
+commit b6812b8d510dd8f23da7703506cb67cefc985533
+Merge: 78a4097d 239361d9
+Author: Adonais Romero Gonzalez <seromero@microsoft.com>
+Date:   Mon Sep 26 16:04:27 2022 -0700
+
+    Merge branch 'main' into develop
+
+commit 239361d9ab5c4b2098896f7a29451b99b71d9063
+Author: Phan Trinh Ha <23308647+thpthp1@users.noreply.github.com>
+Date:   Wed Sep 21 09:48:21 2022 -0700
+
+    [general/toaster] Handle non successful return value of WdfIoTargetStart in toastmon.c (#785)
+
+    Handle non-successful return value of WdfIoTargetStart in toastmon.c
+
+commit 110e8c201d5a929fc01e333ceac0dc71b0267237
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Sep 6 16:36:33 2022 -0700
+
+    Miscellaneous build scripts fixes (#779)
+
+    Fix actions: escape emoji characters; add small validations to build scripts
+
+commit 78a4097df51c69947516fff09abf1444eebe70c2
+Author: emilyhobby <86006065+emilyhobby@users.noreply.github.com>
+Date:   Wed Aug 31 15:16:48 2022 -0700
+
+    Include/Needs inbox services for hidusbfx2, vhidmini, umdf_filter_umdf (#778)
+
+commit d504c54cf595e9185617a3e611e417617be8c0b8
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Aug 26 14:48:11 2022 -0700
+
+    Add CI workflows for building and validating driver samples (#775)
+
+    * Add scripts to build a set of samples, as well as individual solution folders.
+    * Add GitHub workflows to use these scripts and build all samples on push and changed samples on pull request.
+
+    For now samples will be built under Windows 2019 but eventually workflow will be moved to run under Windows 2022.
+
+commit 73c55fdc2e3d407ee39521ff4a1b2ea6791f134e
+Author: Barry Golden <bagold@microsoft.com>
+Date:   Fri Aug 12 09:33:34 2022 -0700
+
+    Update README.md
+
+commit 5108e2744c7aa807e9d9855c2088dbd622e99641
+Author: Parag Mali <parag201093@gmail.com>
+Date:   Thu Aug 11 14:00:15 2022 -0700
+
+    [biometrics] Use includes/needs for wudfbiousbsample (#767)
+
+commit becc483cd0de057185990c01e0a95cc63458191e
+Author: emilyhobby <86006065+emilyhobby@users.noreply.github.com>
+Date:   Mon Aug 8 11:18:27 2022 -0700
+
+    Include/Needs inbox services (#765)
+
+    * Include/Needs inbox services
+    * Added header comment specifying required minimum OS version
+
+commit f03befef4181d9e1f6d31be725ce79dc9fad9883
+Merge: c09d9910 620f8786
+Author: Adonais Romero Gonzalez <seromero@microsoft.com>
+Date:   Thu Jul 28 11:26:20 2022 -0700
+
+    Merge branch 'main' into develop
+
+commit 620f8786481c7bdb5c762a43102eafcb6f9c812d
+Merge: e4ab46c3 9e1d1915
+Author: Adonais Romero Gonzalez <seromero@microsoft.com>
+Date:   Thu Jul 28 11:25:39 2022 -0700
+
+    Merge branch 'main' of https://github.com/microsoft/Windows-driver-samples
+
+commit e4ab46c3a4c44cd3bd64e5407ba03f5af18a8218
+Author: Yinghan Yang <yinghany@microsoft.com>
+Date:   Thu Jul 28 11:20:51 2022 -0700
+
+    [gpio\samples\simdevice] fix UMDF inx (#763)
+
+commit 9e1d1915c095b389b52c019bc3286fc7be131d30
+Author: Yinghan Yang <yinghany@microsoft.com>
+Date:   Thu Jul 28 11:20:51 2022 -0700
+
+    [gpio\samples\simdevice (#763)
+
+    * fix sha alg for samples
+
+    * fix UMDF inx
+
+    * PR feedback
+
+    Co-authored-by: Yinghan Yang <yinghany@ntdev.microsoft.com>
+    Co-authored-by: Yinghan Yang (307315) <Yinghan.Yang@microsoft.com>
+
+commit c09d9910b1379af9ea0d3de4ec4d90fc1ed2ecac
+Author: Tom Molenhouse <tmolenh@users.noreply.github.com>
+Date:   Mon Jul 18 12:39:50 2022 -0700
+
+    [network\ndis\ndisprot] Virtual Miniport: Fix UINT8 comparison with ULONG (#754)
+
+    fix UINT8 comparison with ULONG
+
+commit 5f773dd71eacded0e0bf0b6ab223beb96de21a11
+Merge: 55f5458e 3c4de764
+Author: Adonais Romero Gonzalez <seromero@microsoft.com>
+Date:   Fri Jul 15 15:12:52 2022 -0700
+
+    Merge branch 'main' into develop
+
+commit 3c4de76454f1aed23b58a75a2505f8bd047e02f5
+Author: Yinghan Yang <yinghany@microsoft.com>
+Date:   Fri Jul 15 15:11:14 2022 -0700
+
+    [pofx\pep] Pool allocation fix (#759)
+
+commit 55f5458e18ebb745abd917b2cca27385b2c02bd3
+Author: Yang You(UU) <yangyou@microsoft.com>
+Date:   Tue Jul 12 10:57:06 2022 -0700
+
+    [network\wlan\wdi] Move Project to be Windows Driver Compliance ready (#752)
+
+    1. Running the ApiValidator and make sure the issue free.
+    2. Running the InfVerif and make sure the INF file issue free.
+
+    There is limitations for MSFT currently doesnÅft have any SDIO based WI-FI NICs, so the latest Driver Verifier /RC 33 36 tests not run
+
+commit d0b7e627fc4aebe6b9c3805a63d0aba4557433ab
+Author: C De <54338635+cde-git@users.noreply.github.com>
+Date:   Mon Jun 27 11:22:13 2022 -0700
+
+    Removing another instance of ExAllocate Pool (#748)
+
+    * Removing instance of ExAllocatePoolWithTag
+
+    * Removing ExAllocatePool define
+
+    Co-authored-by: C De <chde@xbox.com>
+
+commit e3ffcb404ddb611789c522c08c868ccd2e7aaf77
+Author: Oliver <roehrdor@outlook.com>
+Date:   Mon Jun 20 14:19:26 2022 -0700
+
+    Replace deprecated ExAllocatePoolWithQuotaTag call (#747)
+
+    ExAllocatePoolWithQuotaTag has been deprecated in Windows 10 (v 2004),
+    this change replaces the calls to this functions.
+
+commit 9790fc29f3480068ee036d96f6a5b95976960d2e
+Author: C De <54338635+cde-git@users.noreply.github.com>
+Date:   Fri Jun 10 14:32:09 2022 -0700
+
+    Removing instance of ExAllocatePoolWithTag (#742)
+
+    Co-authored-by: C De <chde@xbox.com>
+
+commit 407a607d50801cd4e49bd383996c63cfc232b9c0
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Wed Jun 1 18:04:32 2022 -0700
+
+    [general\obcallback] Replace ExAllocatePoolWithTag -> ExAllocatePool2 (#736)
+
+    Replacing deprecated ExAllocatePoolWithTag to ExAllocatePool2. Builds with Windows 11 EWDK with Visual Studio Build Tools 17.1.5.
+
+commit 03cb8dc6e2caa5088fd3c7f7ca7e3c9b3489230d
+Author: Phan Trinh Ha <23308647+thpthp1@users.noreply.github.com>
+Date:   Thu May 26 18:08:09 2022 -0700
+
+    [hid\firefly] Replace ExAllocatePoolWithTag -> ExAllocatePool2 (#734)
+
+    Update ExAllocatePoolWithTag -> ExAllocatePool2
+
+commit ba69fa3c072abdb56029a324f0e6e23eea1b33d3 (tag: win11-22h2)
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue May 24 10:45:44 2022 -0700
+
+    Update README.md
+
+commit 6047fcf123e138a5715216b5ac6b1829f5ae6285
+Merge: b8d3abcd 23667fbb
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue May 24 09:34:59 2022 -0700
+
+    Merge pull request #729 from microsoft/users/GitHubPolicyService/c85a8fe9-943e-41a2-b91f-2cb622b9eb6b
+
+    Adding Microsoft SECURITY.MD
+
+commit 23667fbbeb0287314c500ef6c657d737b5ad53ca
+Author: microsoft-github-policy-service[bot] <77245923+microsoft-github-policy-service[bot]@users.noreply.github.com>
+Date:   Mon May 23 20:02:42 2022 +0000
+
+    Microsoft mandatory file
+
+commit b8d3abcd822aafc27af851f7ec6b8938b21e57b5
+Author: olegkMS <86095074+olegkMS@users.noreply.github.com>
+Date:   Wed May 18 15:26:38 2022 -0700
+
+    Replaced ExAllocatePoolWithTag to more secure ExAllocatePoolZero in samples of filesystems and filesystem filters; made necessary changes to make solutions buildable under recent Visual Studio (#725)
+
+commit ca1f03863feb9b38bac8e0782f3bdf5dc4795ebc
+Author: Thad House <87844845+thhous-msft@users.noreply.github.com>
+Date:   Wed May 11 13:11:05 2022 -0700
+
+    Switch WSK Echosrv to ExAllocatePoolZero (#720)
+
+commit cf17d8df1a423a7ee616bf8179e8e102fe674a57
+Author: visvel <visvel@microsoft.com>
+Date:   Wed May 11 08:58:53 2022 -0700
+
+    Using ExAllocatePool2 for deferred API change (#719)
+
+commit a423bafcdcf7a58de7d3abd284f6107e4cce329f
+Author: dwimmel-msft <84540915+dwimmel-msft@users.noreply.github.com>
+Date:   Wed May 4 11:03:57 2022 -0700
+
+    [storage/class/disk] Use ExAllocatePool2 (#712)
+
+commit 30f39e4a535b0b4bc7215fdeee6b6d3a0659a797
+Author: dwimmel-msft <84540915+dwimmel-msft@users.noreply.github.com>
+Date:   Sun May 1 09:54:01 2022 -0700
+
+    fix codeql ComparisonWithWiderType (#711)
+
+commit 3af3bfae4572ffb662bfa52cde0f9b4fa98910ad
+Author: brandyking <102766995+brandyking@users.noreply.github.com>
+Date:   Sun May 1 09:49:15 2022 -0700
+
+    bug fix: updating UINT8 to UINT32 to correct wrong type comparison (#709)
+
+commit 6f1c7c97a337a080f177f489fd50cc1810b60fe7
+Author: Michael Katz <45770613+microkatz@users.noreply.github.com>
+Date:   Tue Apr 26 10:33:16 2022 -0700
+
+    Check success of StringFromCLSID before printing string (#1) (#716)
+
+    * Check success of StringFromCLSID before printing string
+    * initialized wchar ptr to null
+
+commit 9e1a643093cac60cd333b6d69abc1e4118a12d63
+Author: judzmura <78620953+judzmura@users.noreply.github.com>
+Date:   Tue Apr 5 17:18:21 2022 -0700
+
+    Removing Unused variable from SimpleAudioSample (#710)
+
+    There was a variable (MicArray_180_Degrees) being initialized but not used which was causing a warning and a subsequent failure when building the driver in the Windows Driver Kit TP process. This was fixed by removing the variable's initialization. Validated by building the driver and making sure it still installs and works correctly.
+
+commit 5d1c0dc30fb88e13203b8b8db730825a89e0fa1b
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Mon Apr 4 15:06:15 2022 -0700
+
+    Set ManagedAssembly=true on usb/usbview project
+
+    This will enable the sample to be built under the v143 VC++ toolset while allowing it to be built under lowered version toolsets
+
+commit a4335317df32e6e9d9dad38d8167fdc2d4d95640
+Author: Elaine Houha <38798233+houha2@users.noreply.github.com>
+Date:   Thu Mar 31 09:11:14 2022 -0700
+
+    [network\trans] ExAllocatePoolWithTag changing to ExAllocatePoolZero (#696)
+
+    * init commit more exallocatepoolwithtag to exallocatePoolZero
+
+    * CR comments
+
+    * Adds a define for downlevel support
+
+    * All flavors build Debug/Release Win32/x64, stmEdit.inf edited to fix build errors related to primative drivers
+
+    * Using recommend arch decoration
+
+    Co-authored-by: Elaine Houha <elhouha@microsoft.com>
+
+commit 74dfa461f428642ff93287ad5045432297954461
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Wed Mar 30 09:43:50 2022 -0700
+
+    [usb/usbview] Comparison between i of type UCHAR and SublinkSpeedAttrCount of wider type ULONG. (line 2730)
+
+commit d2d9b75d3dfce353844d61bff86eccfa5f4a423d
+Author: Rohit Raina <Rohit-MSFT@users.noreply.github.com>
+Date:   Mon Mar 28 13:37:32 2022 -0700
+
+    Update driver.c to no longer use ExAllocatePool (#707)
+
+    * Update driver.c
+
+commit c13356a7db851eaabc96806abde6410de536f91d
+Author: witer33 <leox337@gmail.com>
+Date:   Fri Mar 25 01:42:09 2022 +0100
+
+    typos (#706)
+
+commit cc4d9c5396db0c2f4c4cd9800f640624e5a0ac56
+Author: Alena Egorova <alena.egorova@microsoft.com>
+Date:   Thu Mar 24 17:40:45 2022 -0700
+
+    updated pool allocate API (#634)
+
+    Co-authored-by: Alena Egorova <alegorov@microsoft.com>
+
+commit ac79480cef8a97657ede27737570c22874673c28
+Author: KunYi Chen <kunyi.chen@gmail.com>
+Date:   Fri Mar 25 08:36:29 2022 +0800
+
+    correct README.md of VirtualSerial2 driver (#700)
+
+commit 6e59c4660b8da2de65334b4d732bcf6c85ed2837
+Author: He Qian Wang <heqianw@gmail.com>
+Date:   Thu Mar 24 20:26:58 2022 -0400
+
+    Changed ExAllocatePool to ExAllocatePool2 with tag (#636)
+
+commit c4db3350be27b3bcf68dce5fdb7384e5df802ae4
+Merge: 97c2e158 2dad7325
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Thu Mar 24 08:31:35 2022 -0500
+
+    Merge pull request #705 from pralater/master
+
+    Replace Deprecated API
+
+commit 2dad7325dc80b248c37a08fc815b8bde86170108
+Author: Pranav Sharma <pranavsh@microsoft.com>
+Date:   Wed Mar 23 09:46:32 2022 -0700
+
+    fix outdated code
+
+commit 97c2e158657e80e081098c6a48b8e3360c01f2f7
+Merge: 69b7d1ff 8d1357ef
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Tue Mar 22 14:28:27 2022 -0500
+
+    Merge pull request #695 from tmolenh/netvmini-pool
+
+    Virtual Miniport: Replace ExAllocatePool* with ExAllocatePool2
+
+commit 69b7d1ff44f87fcf180d2936f6d15c3b4021da7f
+Merge: 9bb77ebe f1969c37
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Tue Mar 22 14:11:28 2022 -0500
+
+    Merge pull request #694 from tmolenh/extension-pool
+
+    VMSwitch Extension: Replace ExAllocatePool* with ExAllocatePool2
+
+commit 1650aeea25a2180fcfb062d69f6112079fef8f97
+Merge: 86731b86 9bb77ebe
+Author: Pranav Sharma <pranavsh@microsoft.com>
+Date:   Fri Mar 18 15:36:03 2022 -0700
+
+    Merge branch 'master' of https://github.com/pralater/Windows-driver-samples
+
+commit 86731b86485eee95fd5060232c3d171257607db6
+Author: Pranav Sharma <pranavsh@microsoft.com>
+Date:   Fri Mar 18 15:34:30 2022 -0700
+
+    replace deprecated ExAllocatePool API
+
+commit 9bb77ebe0a5be25d21fff67200e75427e33a3d12
+Author: Phan Trinh Ha <23308647+thpthp1@users.noreply.github.com>
+Date:   Fri Mar 18 14:00:47 2022 -0700
+
+    Fix Acpi.cpp error msg string (#703)
+
+commit 983fd454fa1ca4ca063595a5260ca3078ec29f23
+Author: Phan Trinh Ha <phan181299@gmail.com>
+Date:   Mon Mar 14 15:47:47 2022 -0700
+
+    Update UcmCxUcsi.inf
+
+commit 94de67aabfbc2a4e338d4d4eca838c918749fa7f
+Author: Phan Trinh Ha <phantrinhha@microsoft.com>
+Date:   Wed Mar 9 23:28:52 2022 -0800
+
+    PR Feedback
+
+commit 4fb81dbfe57f347dd84c41becb4069c45171373a
+Author: Phan Trinh Ha <phantrinhha@microsoft.com>
+Date:   Wed Mar 9 16:14:32 2022 -0800
+
+    Updating ExAllocatePoolWithTag security and additional PnpLockdown warning on build
+
+commit 8d1357ef14068739c2996e3b389dcb6fa44a7271
+Author: Tom Molenhouse <thmolenh@microsoft.com>
+Date:   Wed Mar 2 04:43:41 2022 -0800
+
+    Replace ExAllocatePool* with ExAllocatePool2
+
+commit f1969c37da5f879331ffb411667e34ce89f1c636
+Author: Tom Molenhouse <thmolenh@microsoft.com>
+Date:   Wed Mar 2 04:23:04 2022 -0800
+
+    Replace ExAllocatePool* with ExAllocatePool2
+
+commit 9f03207ae1e8df83325f067de84494ae55ab5e97
+Merge: d71431cd aa7f6d71
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Tue Feb 1 14:37:03 2022 -0600
+
+    Merge pull request #624 from houha2/updateDriversSHA
+
+    Update driver signing to SHA256
+
+commit d71431cd64e5a0f299ed0edea51ee3d755a320a9
+Merge: 182f706f 057b3f8c
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Tue Feb 1 14:36:39 2022 -0600
+
+    Merge pull request #625 from nibhansa/master
+
+    update wdi samples to use sha256
+
+commit 182f706f991289a6d2a0d8e57fd23b11fcf56304
+Merge: 41d3a278 3827effc
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Tue Feb 1 14:36:34 2022 -0600
+
+    Merge pull request #631 from vtam-msft/master
+
+    Update WPD samples to use sha256
+
+commit 41d3a2787970d212960f3c2c074b0540e9fd91d5
+Merge: 711341f7 c5e8e568
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Tue Feb 1 14:35:51 2022 -0600
+
+    Merge pull request #635 from msofipm/master
+
+    Changing driver signing to sha256.
+
+commit 711341f71fe2eb020bafd438208be187753df0bc
+Merge: 27406fc2 3e68a1ca
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Tue Feb 1 14:35:29 2022 -0600
+
+    Merge pull request #639 from adancy/patch-1
+
+    Correct signing digest
+
+commit 27406fc22c5be21f2e153622d922c15f0195cebb
+Merge: f0522c68 dd3f3f0d
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Tue Feb 1 14:35:07 2022 -0600
+
+    Merge pull request #646 from tmolenh/master
+
+    Update switch extension samples to use SHA256 driver signing
+
+commit f0522c68637f946fe70d9425fca3284dfa2bc5ed
+Merge: f0adcda0 1ce6f90f
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Mon Jan 31 21:37:45 2022 -0800
+
+    Merge pull request #656 from jgeurten/master
+
+    Update remaining samples to use SHA256 as digest signing algorithm
+
+commit f0adcda012820b1cd44a8b3a1953baf478029738
+Author: matwilli <39633852+matwilli@users.noreply.github.com>
+Date:   Mon Nov 29 12:59:10 2021 -0800
+
+    Cumulative updates. (#674)
+
+    Changing ExAllocatePoolWithTag to ExAllocatePool2
+    Disable the data role correction policy in UcmUcsiCx conditionally
+    Copying ACPI shared memory locally on UCSI notification
+
+commit d3ec258921cfcef7b053b5a2c866330d43dd3f03
+Author: Matthew Williams <matwilli@microsoft.com>
+Date:   Mon Nov 8 16:08:04 2021 -0800
+
+    Initialize local variables
+
+commit 0cf2d71b0bf876e8da6cd9338b48b203c92a6b1d
+Author: dwimmel-msft <84540915+dwimmel-msft@users.noreply.github.com>
+Date:   Wed Oct 27 10:14:09 2021 -0700
+
+    fix semmle: comparison-with-wider-type (#663)
+
+    * fix semmle: comparison-with-wider-type
+
+    https://codeql.github.com/codeql-query-help/cpp/cpp-comparison-with-wider-type/
+
+    * numberOfHighestPort UCHAR -> ULONG
+
+commit f5fb15f5913fea0a7ee00da5c566c0f614c34bd4
+Author: Chris Kleynhans <chris@kleynhans.ca>
+Date:   Fri Oct 15 14:04:50 2021 -0700
+
+    Replace regfltr sample calls to ExAllocatePoolWithTag with ExAllocatePoolZero. (#501)
+
+commit 7895dd22785ddba5e973662ed942be3b3452b89d
+Author: Daniel Rugerio <50124185+darugeri@users.noreply.github.com>
+Date:   Fri Aug 13 15:05:12 2021 -0700
+
+    audio: Updates for Windows 10 22000 (#655)
+
+    * Updates for Windows 10 22000.
+    * Change how WIL is consumed.
+
+commit 1ce6f90f082e6099dd8eefe2d2f035f663c88761
+Author: Jordan Geurten <jogeurte@microsoft.com>
+Date:   Thu Jul 29 15:51:37 2021 -0700
+
+    Updated Github \nfc\ Windows-driver-samples to use SHA256 for signing
+
+commit 6f36eb69562712123918b1d9d6e3db6d8247b8e4
+Author: Jordan Geurten <jogeurte@microsoft.com>
+Date:   Thu Jul 29 15:44:26 2021 -0700
+
+    updated \storage\ Windows-driver-samples to use SHA256 for signing
+
+commit 33dbc7e15111aaf7db652598d777da1b2fd48957
+Author: Jordan Geurten <jogeurte@microsoft.com>
+Date:   Thu Jul 29 15:00:50 2021 -0700
+
+    Updated \network\radio\HidSwitchDriverSample\ to use SHA256 for signing
+
+commit fdf1ed3b664e9966233ab9ebb001b69812919be7
+Author: Jordan Geurten <jogeurte@microsoft.com>
+Date:   Thu Jul 29 14:53:56 2021 -0700
+
+    Updated \general\ Windows-driver-samples to use SHA256 for signing
+
+commit cd6f93fb8866cbdfc63d0ea7932c5b483c17e899
+Author: Jordan Geurten <jogeurte@microsoft.com>
+Date:   Thu Jul 29 14:47:26 2021 -0700
+
+    Updated \security\ Windows-driver-samples to use SHA256 for signing
+
+commit 4b497194c3e8eb3a40876f51c34f3858d1a1e2a7
+Author: Jordan Geurten <jogeurte@microsoft.com>
+Date:   Thu Jul 29 14:46:21 2021 -0700
+
+    Updated \network\wsk\echosrv\ Windows-driver-samples to use SHA256 for signing
+
+commit d6b9a6eb86363db53c5851a6b4ac9454b9fe0b42
+Author: Jordan Geurten <jogeurte@microsoft.com>
+Date:   Thu Jul 29 14:44:53 2021 -0700
+
+    Updated \network\ndis Windows-driver-samples to use SHA256
+
+commit 10e58e51f0cdc36509398a9873c638a719631999
+Author: Jordan Geurten <jogeurte@microsoft.com>
+Date:   Thu Jul 29 14:37:56 2021 -0700
+
+    Updated \TrEE\Miniport\TrEEMiniportSample.vcxproj to use SHA256 for signtool /FD
+
+commit df47b2d284558fa9aacd19257153037e4ebba60e
+Author: jayguanms <86854266+jayguanms@users.noreply.github.com>
+Date:   Fri Jul 16 15:53:14 2021 -0700
+
+    update driver signing to sha256 (#648)
+
+    Co-authored-by: Jay Guan <dogua@microsoft.com>
+
+commit 36e28ad25692434f9b75a8a49d93ffa4eb6f4400
+Merge: 207ca1f3 0027f349
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Thu Jul 8 16:47:11 2021 -0700
+
+    Merge pull request #650 from olegkMS/master
+
+    update hash algorithm to sha256
+
+commit 207ca1f3703ade3c9f5155d4ee52d787891faf8a
+Merge: 8f3144c3 38a5c2ec
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Thu Jul 8 14:46:30 2021 -0700
+
+    Merge pull request #649 from Cheoljin/user/chelee/gnssUmdfSHA256
+
+    User/chelee/gnss umdf sha256
+
+commit 0027f349a5d39c64f95cfb4694ff45016400b9bb
+Author: Oleg Kagan (111592) <Oleg.Kagan@microsoft.com>
+Date:   Wed Jul 7 16:51:59 2021 -0700
+
+    update hash algorithm to sha256
+
+commit 38a5c2ec9f0b1e32f50c42ac9e5d9100692a706b
+Author: CJ Lee <chelee@microsoft.com>
+Date:   Tue Jul 6 20:00:24 2021 -0700
+
+    disable SpectreMitigation and pnplockdown
+
+commit 961d3d98e6ee42674e7b988dd3e6d54f3d5a40a8
+Author: CJ Lee <chelee@microsoft.com>
+Date:   Tue Jul 6 18:04:45 2021 -0700
+
+    SHA256 update
+
+commit 8f3144c3915ec2a26628078df1df926cfc6533f3
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Fri Jul 2 12:41:26 2021 -0700
+
+    [hid\firefly] Set driver signing algorithm to sha256
+
+commit 046c5ee1ee5d37254bde7cae467723a9d729dd52
+Merge: 6ec85eac 5884d9bf
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Fri Jul 2 12:42:56 2021 -0700
+
+    Merge pull request #643 from taksaku/master
+
+    Updating the smartcard pscr project to use SHA256.
+
+commit dd3f3f0dba2c495ca3b146afe9dc08dddf03c881
+Author: Tom Molenhouse <thmolenh@microsoft.com>
+Date:   Mon Jun 28 18:22:14 2021 -0700
+
+    Update switch extension samples to use SHA256 driver signing
+
+commit 6ec85eac7246dcf8ee54943b8dc8463cbdf030c0
+Author: Dipannita Shaw <shaw.dipannita@gmail.com>
+Date:   Thu Jun 24 15:57:34 2021 -0700
+
+    Adding sha256 driver signing to additional driver samples (#645)
+
+    Co-authored-by: Dipannita Shaw <dishaw@microsoft.com>
+
+commit 2626299da94971f5e5dc9c40e62de0153dc6abee
+Merge: 11adb782 960379ce
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Thu Jun 24 12:25:31 2021 -0700
+
+    Merge pull request #644 from pingdu2021/master
+
+    Update Github \sd\miniport Windows-driver-samples to use SHA256 for sÅc
+
+commit 960379ce6290b43f1dd50fb8e31a838eccffdf1c
+Author: Ping Du <pingdu@microsoft.com>
+Date:   Thu Jun 24 12:05:34 2021 -0700
+
+    Update Github \sd\miniport Windows-driver-samples to use SHA256 for signing
+
+commit 5884d9bf2c04990f1070058a6b0e230901c71e4d
+Author: Takahisa Sakurai <taksaku@microsoft.com>
+Date:   Wed Jun 23 18:18:05 2021 -0700
+
+    Updating the smartcard pscr project to use SHA256.
+
+commit 11adb782298ea43f5578e3e9c3ee8d5b9828e29a
+Author: Yinghan Yang <yinghany@microsoft.com>
+Date:   Mon Jun 21 15:53:34 2021 -0700
+
+    fix wmiacpi signature sample (#640)
+
+
+    Co-authored-by: Yinghan Yang <yinghany@ntdev.microsoft.com>
+
+commit 3e68a1cabaaf12d7bbff7ef868ecd6203868d778
+Author: Andrew Dancy <andrew@reincubate.com>
+Date:   Mon Jun 21 23:09:10 2021 +0100
+
+    Correct signing digest
+
+    Fix bug where signing digest had incorrectly been stated as sha265 instead of sha256
+
+commit 77e6755266b5c816cf08c182f0b40d368ed86d45
+Merge: 39f66450 1eae13e3
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Mon Jun 21 14:53:34 2021 -0700
+
+    Merge pull request #638 from dv-msft/user/dhvisput/bug_32135084
+
+    Set driver signing algorithm to sha256 for some Bluetooth sample drivers.
+
+commit 1eae13e3f98d4ac1d6deb6f339ef9a53b1f961b9
+Author: Dhiren Vispute <dhvisput@microsoft.com>
+Date:   Sun Jun 20 21:28:47 2021 -0700
+
+    [bug_32135084]: Set driver signing algorithm to sha256
+
+commit c5e8e568787b1351d1811021c7bfab3b3df53cfa
+Author: msofipm <mpenamier@microsoft.com>
+Date:   Wed Jun 16 11:12:34 2021 -0700
+
+    Changing driver signing to sha256.
+
+commit 39f664504315ef65272eec270be7c530a1c47bae
+Author: Vidush Vishwanath <vidushv@gmail.com>
+Date:   Mon Jun 14 09:21:22 2021 -0700
+
+    Use SHA 256 signing in fakemodem project. (#627)
+
+commit 3827effc41b508a489946dddff199555f0aafb8c
+Author: Vincent Tam <vtam@microsoft.com>
+Date:   Thu Jun 10 18:32:07 2021 -0700
+
+    sha256 signing
+
+commit f6c1383978b6048194a3c27df7b17a9bae6761ec
+Merge: 3a8798c4 d228af56
+Author: Vincent Tam <vtam@microsoft.com>
+Date:   Thu Jun 10 17:32:32 2021 -0700
+
+    Merge branch 'microsoft:master' into master
+
+commit d228af5682ed7e9ca512a789a3be3f89a73bef8f
+Author: Alena Egorova <alena.egorova@microsoft.com>
+Date:   Thu Jun 10 13:46:35 2021 -0700
+
+    Update Github \general\pcidrv Windows-driver-samples to use SHA256 for signing (#633)
+
+    Co-authored-by: Alena Egorova <alegorov@microsoft.com>
+
+commit dc53763c886c8fc1f5efc9f46979bf291055a819
+Author: Yinghan Yang <yinghany@microsoft.com>
+Date:   Wed Jun 9 17:07:07 2021 -0700
+
+    fix sha alg for samples (#632)
+
+    Co-authored-by: Yinghan Yang <yinghany@ntdev.microsoft.com>
+
+commit aa7f6d717eb6bd5a24ac070e69fca892c337c019
+Author: Elaine Houha <elhouha@microsoft.com>
+Date:   Tue Jun 8 13:00:41 2021 -0700
+
+    clean pt2
+
+commit 8ad1f8528df8a3bcd11330ac4e0e7a911911bffd
+Author: Elaine Houha <elhouha@microsoft.com>
+Date:   Tue Jun 8 12:54:33 2021 -0700
+
+    cleaned up msnmtr.vcxproj to  only have sha256 changes
+
+commit 3a8798c428bfc2319fce3ab669c1953787b46456
+Author: Vincent Tam <vtam@microsoft.com>
+Date:   Fri Jun 4 14:46:58 2021 -0700
+
+    Update WPD samples to use sha256
+
+commit 68929f177a2a0ad718b0bb5c2d7fd210e6076c7b
+Merge: 10037b59 e3b7ea56
+Author: NateD-MSFT <34494373+NateD-MSFT@users.noreply.github.com>
+Date:   Wed Jun 2 15:35:17 2021 -0700
+
+    Merge pull request #629 from NateD-MSFT/main
+
+    Remove deprecated API usage in DV-FailDriver-WDM sample.
+
+commit e3b7ea5642567fd2cd0d4228adcb32f55be47989
+Author: natede-MSFT <natede@microsoft.com>
+Date:   Wed Jun 2 17:33:55 2021 -0500
+
+    Remove deprecated API usage in DV-FailDriver-WDM sample.
+
+commit 10037b5911f1cfb124ae8518ac8fbf5ea676551e
+Merge: 0ffef35a 7f70194f
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Wed Jun 2 07:43:27 2021 -0700
+
+    Merge pull request #626 from darwin-msft/user/darwou/update_hash_algorithm
+
+    update hash algorithm to sha256
+
+commit 7f70194fa2b3bbeaee27b62bc9c3d2d5e3c34519
+Author: darwin-msft <42794227+darwin-msft@users.noreply.github.com>
+Date:   Tue Jun 1 20:32:14 2021 -0700
+
+    update hash algorithm to sha256
+
+    update hash algorithm to sha256
+
+commit 057b3f8c951ec7790834832e8e736aace0dd2b8c
+Author: Nikhil Bhansali <nibhansa@microsoft.com>
+Date:   Tue Jun 1 15:43:50 2021 -0700
+
+    update wdi samples to use sha256
+
+commit 0effef0b7b0483fe37a52a2979c121faf45bc937
+Author: Elaine Houha <elhouha@microsoft.com>
+Date:   Fri May 28 18:04:44 2021 -0700
+
+    added msnmntr.vcxpoj
+
+commit e91d30d5ce2407fa57d7e809c1b7c5e6f63f7aa6
+Author: Elaine Houha <elhouha@microsoft.com>
+Date:   Fri May 28 17:56:39 2021 -0700
+
+    updated driver signing to SHA256
+
+commit 0ffef35aadc7a942d71fc9d40c4e6bf9af076ac5
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Thu May 27 20:58:16 2021 -0700
+
+    Update wmisamp to use sha256 file digest algorithm
+
+commit 4fe5787f122fdfc45253b45f9fad3983f53d86df
+Author: j-leungyy <43455129+j-leungyy@users.noreply.github.com>
+Date:   Tue May 25 09:06:09 2021 -0700
+
+    update simplemediasource sample (#614)
+
+    * update simplemediasource wrl to winrtcpp COM, add mediatype NV12 (SimpleFrameGenerator), fix Mediatype missing attribute (bitrate), add IMFActivate, IMFSampleAllocator interface and implementation, update hardcode arg with named variables, cleanup sample for StreamIndex and StreamId, add sample KSControl
+    * address PR-it1 comments
+    * address comment from PR-it2, replace manual define of IKSControl by ksproxy.h
+    * remove unuse header
+    * address comment from PR
+    * fix sdk to latest, add driversign algorithm
+    * remove nudget, use submodule
+
+commit 53afd12aadb8aff15097f1546d4f80c6074e0bdc
+Merge: bd6e532e 0ed5e823
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Fri May 7 13:29:22 2021 -0700
+
+    Merge pull request #591 from idigdoug/user/dcook/kcsDigest
+
+    kcs - add sha256, cleanup, use Ctrpp task
+
+commit bd6e532e227cc84331e4174fe40aea14c7f5c58c
+Merge: b125dafe f97382ca
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Tue May 4 14:59:45 2021 -0700
+
+    Merge pull request #621 from bodengMS/user/bodeng/sha256
+
+    Update ndis driver samples to use sha256 file digest algorithm.
+
+commit f97382cab7ce552f4283c248a18bfeb0d3546bc8
+Author: Botao Deng <Botao.Deng@microsoft.com>
+Date:   Mon May 3 21:38:10 2021 -0700
+
+    Update ndis driver samples to use sha256 file digest algorithm.
+
+commit b125dafe4da1190bc28a06c4256bd73226574cc7
+Merge: 858bea99 82279d26
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Tue Apr 27 16:01:20 2021 -0700
+
+    Merge pull request #619 from yyatmsft/master
+
+    Add sha256 signing to applicable print WDK samples
+
+commit 82279d26a020def5971a7238f5e3f1c433d96664
+Author: yyatmsft <yuanlei@microsoft.com>
+Date:   Tue Apr 27 15:26:32 2021 -0700
+
+    fix driver signing
+
+commit 858bea99f5b533c45b182c1cb1be5acb6b1b8e60
+Merge: 672fafbc 8c0516b8
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Tue Apr 27 14:56:03 2021 -0700
+
+    Merge pull request #618 from dipannita08/master
+
+     Fixing bad merge with commit: Driver signing changes for driver samples
+
+commit 8c0516b800148950cf1701da66ed6566f0c75ad7
+Author: Dipannita Shaw <dishaw@microsoft.com>
+Date:   Tue Apr 27 13:55:30 2021 -0700
+
+    Fix mad merge regression
+
+commit 78a1795995814a0bac43042f7ca68e83ab525bd5
+Merge: 465e2745 672fafbc
+Author: Dipannita Shaw <dishaw@microsoft.com>
+Date:   Tue Apr 27 14:26:21 2021 -0700
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit 465e27457dd3b47cf64e4b7274705cc6acc011a6
+Author: Dipannita Shaw <dishaw@microsoft.com>
+Date:   Tue Apr 27 13:55:30 2021 -0700
+
+    Fix mad merge regression
+
+commit 672fafbcc455cd97172b2df78040c7c405e32d00
+Author: Dipannita Shaw <dishaw@microsoft.com>
+Date:   Mon Apr 26 15:05:16 2021 -0700
+
+    Fixing UcmUcsiAcpiSample driver sample failure in EWDK with VS16.6.0
+
+commit fcf72957a9e938aa102ca3241613b01eb4474abc
+Author: Dipannita Shaw <shaw.dipannita@gmail.com>
+Date:   Thu Apr 22 18:59:17 2021 -0700
+
+    Driver signing changes for driver samples (#612)
+
+commit 7e470aedb3bdb45dd828401ad244ba30a931c33d
+Merge: 80c104ad 50915a01
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Thu Apr 22 16:44:58 2021 -0700
+
+    Merge pull request #615 from zeusk/user/shagu/idd-sampleApp-fix
+
+    User/shagu/idd sample app fix
+
+commit 50915a0176493524fa5fcc2874cfb97d65a56a35
+Author: Shantanu Gupta <shagu@microsoft.com>
+Date:   Thu Apr 22 15:48:07 2021 -0700
+
+    Fix build issues with WDK 10.0.19041
+
+commit ac57725fd33b8d5128160e27a7e886c1219c16b4
+Author: Dipannita Shaw <dishaw@microsoft.com>
+Date:   Tue Apr 20 17:03:27 2021 -0700
+
+    Driver signing changes for driver samples
+
+commit 80c104ad0cef2a4fb55aaee7d494f30af5fb44b4
+Author: matwilli <39633852+matwilli@users.noreply.github.com>
+Date:   Tue Apr 20 10:59:31 2021 -0700
+
+    Buses samples should use ExAllocatePool2 (#611)
+
+    * Updating samples to utilize ExAllocatePool2 which zero-initializes pool allocations
+
+commit 5ab839435fd1c6d5f60171312cc0b078544b060d
+Author: Fredrik Orderud <forderud@users.noreply.github.com>
+Date:   Sat Apr 17 01:39:34 2021 +0200
+
+    Remove duplicate VHIDMINI_DEVICE_STRING define (#579)
+
+    The same define is also found 4 lines below.
+
+commit e80445a63409b2d9b76633433efdbb77df685757
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Fri Apr 16 16:35:22 2021 -0700
+
+    Remove duplicate markdown file
+
+commit 3923c997a290768eb31ce19d1458670b4ffff835
+Author: Wei Mao <weimao1@gmail.com>
+Date:   Fri Apr 16 16:07:28 2021 -0700
+
+    Change mhtml to markdown
+
+commit 285b0ca00aa8a14eed8ee2f72e095791bade544e
+Merge: b6b669b3 2f827299
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Fri Apr 16 14:48:22 2021 -0700
+
+    Merge pull request #610 from zlockard/patch-5
+
+    Update SampleBarcodeScannerDrv.inf
+
+commit b6b669b3458d6c21a691daece681823d87df58d6
+Merge: ee0b91b8 114cdce5
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Fri Apr 16 14:47:42 2021 -0700
+
+    Merge pull request #609 from zlockard/patch-4
+
+    Update SampleMagneticStripeReaderDrv.inf
+
+commit 2f827299318b37cad6cde4eb66cb2737d7e6a84e
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Thu Apr 15 14:51:22 2021 -0700
+
+    Update SampleBarcodeScannerDrv.inf
+
+commit 114cdce5982e411f378f61e6a0a174060cbeaadd
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Thu Apr 15 14:51:10 2021 -0700
+
+    Update SampleMagneticStripeReaderDrv.inf
+
+commit ee0b91b8662922119bc7faae4cd1337d21d9c32b
+Merge: bfcc6c7e 1369d7dd
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Wed Apr 14 19:54:23 2021 -0700
+
+    Merge pull request #608 from zlockard/patch-3
+
+    Update SampleMagneticStripeReaderDrv.inf
+
+commit bfcc6c7e7a5423e0d5cb775205b7112fb550bd0a
+Merge: 1dc68f59 fe5c2aa1
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Wed Apr 14 19:53:56 2021 -0700
+
+    Merge pull request #607 from zlockard/patch-2
+
+    Update SampleBarcodeScannerDrv.inf
+
+commit 1dc68f59a5f80937e838c8ecfd3bff451ac9237f
+Author: judzmura <78620953+judzmura@users.noreply.github.com>
+Date:   Wed Apr 14 14:45:30 2021 -0700
+
+    Update SimpleAudioSample and Sysvad to use SHA256 signing. (#606)
+
+    * Update simpleAudioSample to use SHA256 signing.
+    * Update sysvad to use SHA256 driver signing.
+
+commit 1369d7dd9c6fb4a8afa343840ebe493967a278da
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Tue Apr 13 17:55:32 2021 -0700
+
+    Update SampleMagneticStripeReaderDrv.inf
+
+commit fe5c2aa126519389cd3c45d88e8287681fc5256f
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Tue Apr 13 17:55:04 2021 -0700
+
+    Update SampleBarcodeScannerDrv.inf
+
+commit 1fe4cc42bedfccb97a5b2cc169f9e5306d41d0de
+Merge: 17910e5b 781e813e
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Wed Mar 31 19:34:29 2021 -0500
+
+    Merge pull request #599 from vtest-ms/msvmurta-windows-driver-samples
+
+    Set sha256 as the default file digest algorithm for avshws and avscamera
+
+commit 781e813ec596f593acea0639697bea2b0d562c58
+Author: Victor Murta <vmurta@microsoft.com>
+Date:   Wed Mar 31 14:25:34 2021 -0700
+
+    set sha256 as the default file digest algorithmfor avshws and avscamera
+
+commit 17910e5be761e1b8b9ad866ffec1cf903f24f01a
+Author: Shantanu Gupta <shans95g@gmail.com>
+Date:   Tue Mar 30 10:21:45 2021 -0700
+
+    Update IddCx and KMDOD samples to use SHA256 (#593)
+
+    * Switch to SHA256 for Iddcx and KMDOD samples
+    * Undo changes to SampleDisplay.vcxproj.Filters
+
+    Co-authored-by: Shantanu Gupta <shagu@microsoft.com>
+
+commit e7d711dca53349edfd9068011a76af51a7da3b60
+Author: j-leungyy <43455129+j-leungyy@users.noreply.github.com>
+Date:   Mon Mar 29 12:44:59 2021 -0700
+
+    User/jeleung/camera/fixdmft (#594)
+
+    * add config for nudget
+    * add IMFSampleAllocatorControl to QueryInterface
+
+commit 24e0600eb31b9309ab2d6b69573c0c91343a1ad0
+Author: Brandon Obermeyer <80786488+brober-msft@users.noreply.github.com>
+Date:   Mon Mar 29 11:21:17 2021 -0700
+
+    Adds the HLK APO tests to the public github for windows-driver-samples. (#597)
+
+    This change is to add the HLK APO tests to the windows-driver-samples to allow for any partners to take a look at the tests to know what exactly is being tested when they run the HLK APO tests.
+
+commit db962644c3307b8da85667b3bc5e1d0b90e70e06
+Merge: 89a00bb7 d2af5fc3
+Author: NateD-MSFT <34494373+NateD-MSFT@users.noreply.github.com>
+Date:   Thu Mar 25 14:01:25 2021 -0700
+
+    Merge pull request #596 from NateD-MSFT/update-sdv-sha
+
+    Update SDV sample drivers to use SHA-256 signing.
+
+commit d2af5fc3e77f4b908a97b06534b75fbe839b15c1
+Author: natede-MSFT <natede@microsoft.com>
+Date:   Thu Mar 25 14:00:32 2021 -0700
+
+    Update SDV sample drivers to use SHA-256 signing.
+
+commit 89a00bb721817d6a8c110a53bcb04db93572c319
+Merge: b5fcd95c 548f302c
+Author: NateD-MSFT <34494373+NateD-MSFT@users.noreply.github.com>
+Date:   Thu Mar 25 13:42:23 2021 -0700
+
+    Merge pull request #595 from dkluemke/user/dkluemke/toastmonSigning
+
+    DV-FailDriver-WDM: Add pnplockdown to INF and set file signing algorithm to sha256
+
+commit 548f302cc50f64375c946f2c8f04502d021a9420
+Author: Drew Kluemke <ankluemk@microsoft.com>
+Date:   Thu Mar 25 12:48:19 2021 -0700
+
+    Add pnplockdown to INF and set file signing algorithm to sha256
+
+commit 3ac047145909d338f1edbae9c11dc536aee3cda5
+Merge: bee1573a b5fcd95c
+Author: Shantanu Gupta <shagu@microsoft.com>
+Date:   Fri Mar 19 15:30:28 2021 -0700
+
+    Merge remote-tracking branch 'upstream/master'
+
+commit 0ed5e823a263dd0d6747b2cf2ca3264b792042d2
+Author: Doug Cook <idigdoug@gmail.com>
+Date:   Thu Mar 18 16:38:55 2021 -0600
+
+    kcs - add sha256, cleanup, use Ctrpp task
+
+    - Set FileDigestAlgorithm=sha256
+    - Replace custom "Run Ctrpp" task with Ctrpp task.
+    - Minor cleanup and comments.
+
+commit b5fcd95c891f44000619c26635a483e5a7448ee1
+Merge: 7f35c63d 51c4fdeb
+Author: tobafo19 <tobafo@gmail.com>
+Date:   Fri Mar 5 16:06:36 2021 -0600
+
+    Merge pull request #561 from vtest-ms/master
+
+    Updated default file digest algorithm to sha256
+
+commit 7f35c63dc83e47b51544f13765569578b67633c0
+Author: rasunder-ms <rasunder@microsoft.com>
+Date:   Thu Mar 4 16:54:33 2021 -0800
+
+    Change simbatt sample to sign with sha256 instead of sha1 (#585)
+
+commit 9a2e9aecb9135e782c434e617f57bfbdf9d8f2fd
+Author: judzmura <78620953+judzmura@users.noreply.github.com>
+Date:   Mon Mar 1 13:12:34 2021 -0800
+
+    Add SimpleAudioSample driver. (#577)
+
+    * Add SimpleAudioSample driver.
+    * Fixed outdated copyrights and updated readme.
+    * Added Filters as a dependency for Main and defined FileDigestAlgorithm as SHA256.
+
+commit 6c41d837b87a0b70fe5dcee78baeba4ef28c45ad
+Author: Prashant Chahar <pchahar@microsoft.com>
+Date:   Mon Feb 22 18:56:54 2021 -0800
+
+    remove changes for package test
+
+commit 963f6e96f2a8027af7bf1560f3b509fe1071f3d1
+Merge: c1f9e79f 6e893a44
+Author: Prashant Chahar <pchahar@microsoft.com>
+Date:   Mon Feb 22 18:17:04 2021 -0800
+
+    Merge branch 'master' of https://github.com/microsoft/Windows-driver-samples
+
+commit c1f9e79f6819ffc295540352b9856507517464c7
+Author: Prashant Chahar <pchahar@microsoft.com>
+Date:   Mon Feb 22 15:00:52 2021 -0800
+
+    Update a sample to test nuget
+
+commit 6e893a444143639dd30ef19e60329a640de8c61f
+Author: bodengMS <79470645+bodengMS@users.noreply.github.com>
+Date:   Mon Feb 22 10:55:27 2021 -0800
+
+    Update ndis filter driver file digest algorithm to SHA256. (#580)
+
+commit 5ab5f7c9597394285812d9fa113ce3f511fbb8f4
+Author: robert-wu-ms <41493644+robert-wu-ms@users.noreply.github.com>
+Date:   Fri Feb 5 13:59:45 2021 -0800
+
+    Update sensors drivers (#576)
+
+    I looked at the commits of all the other projects that added sha256 to the driver sign and did a find and replace.
+
+commit c3b354b79a46a20e7a8063bb69e24d3f7883ce67
+Author: OsborneSDev <76076445+OsborneSDev@users.noreply.github.com>
+Date:   Fri Jan 22 13:15:11 2021 -0800
+
+    Use SHA256 for wdfserial and usbfx2 driver signing (#560)
+
+    Sets file digest algorithm for wdfserial and usbfx2 drivers to SHA256
+    https://dev.azure.com/microsoft/OS/_workitems/edit/31022366
+    https://dev.azure.com/microsoft/OS/_workitems/edit/31022410
+
+    **How Tested:**
+    Compiling the two driver solutions shows they are correctly signed using SHA256
+
+commit f9d9c5035a7ddfee600763965d412be5bf6b8059
+Author: houha2 <38798233+houha2@users.noreply.github.com>
+Date:   Fri Jan 22 12:16:49 2021 -0800
+
+    Improvements to WFP Inspect Sample (#516)
+
+    Changes a `NT_ASSERT` to match what the comment above is saying, the previous version caused a system crash if the packet was not inbound and had a auth decision made already.
+    The comment
+    `         // Skip pended connections in the list, for which the auth decision is already taken.`
+    `         // They should not be for inbound connections.`
+    to my understanding means inbound connections should be ignored and ignore connections for which the auth decision was already made. The latter is checked by:
+    ` if (packet->authConnectDecision == 0)`
+    which keeps `found` equal to `FALSE` triggering the packet and list entry to be set to `NULL` here:
+    `if (!found)
+             {
+                listEntry = NULL;
+                packet = NULL;
+             }`
+
+    Change also updates the .sln and .vxproj  files so the sample compiles on VS2019 without any changes - addressing #366
+
+    Co-authored-by: Elaine Houha <elhouha@microsoft.com>
+
+commit ad7d35781451b0718072593408d0d392371952aa
+Author: houha2 <38798233+houha2@users.noreply.github.com>
+Date:   Fri Jan 22 12:07:25 2021 -0800
+
+    msnmntr: Replace ExAllocatePoolWithTag with ExAllocatePoolZero (#494)
+
+    Updated sample to remove deprecated API usage (ExAllocatePoolWithTag to ExAllocatePoolZero)
+
+    Co-authored-by: Elaine Houha <elhouha@microsoft.com>
+
+commit be65c5c73c8b8bae8b7dafb8cc1585c7ee8df28e
+Author: houha2 <38798233+houha2@users.noreply.github.com>
+Date:   Fri Jan 22 12:05:15 2021 -0800
+
+    WFPSampler: Replaces ExAllocatePoolWithTag to ExAllocatePoolZero (#490)
+
+    * replaces ExAllocatePoolWithTag to ExAllocatePoolZero
+    * adds marco for downlevel support
+    * removes unneeded change
+    * changes comment to reflect new API usage
+    * fixes alignment issues
+    * changes spacing
+
+    Co-authored-by: Elaine Houha <elhouha@microsoft.com>
+
+commit 9e91095440410c63626e7e2eaf3ce341780edf82
+Author: Andrew Maczugowski <amaczugowski@gmail.com>
+Date:   Thu Jan 14 14:55:41 2021 -0500
+
+    Replace ExAllocatePoolWithTag with new API ExAllocatePoolZero. (#486)
+
+    Co-authored-by: Drew Maczugowski <anmaczug@microsoft.com>
+
+commit 31ef0db3ef36b4d1949ae9c8e2760a7f499d1113
+Author: Andrew Maczugowski <amaczugowski@gmail.com>
+Date:   Thu Jan 14 14:55:13 2021 -0500
+
+    classpnp: Use ExAllocatePoolZero instead of ExAllocatePoolWithTag (#485)
+
+    * Replace unsafe allocation API with ExAllocatePool2
+    * Fix for downlevel support.
+
+    Co-authored-by: Drew Maczugowski <anmaczug@microsoft.com>
+
+commit 86e7b24148d1aafcf2d5c76d602561dddbd8fd0b
+Author: Henyin-Microsoft <67933858+Henyin-Microsoft@users.noreply.github.com>
+Date:   Tue Jan 12 10:38:37 2021 -0800
+
+     Bug 31022454 Update Windows-driver-samples to use SHA256 for signing (#562)
+
+    Followed the instruction to change the Algorithm to use SAH256
+
+    Right click on driver project in Visual Studio and select "Properties"
+    Select Configuration: All Configurations and Platform: All Platforms
+    Select "Driving Signing" from the Configuration Properties
+    Enter sha256 for "File Digest Algorithm"
+    Apply changes and exit Properties
+    Save project
+
+commit 51c4fdebdb5a74db8a08e1731bbed45acac96ce7
+Author: Victor Murta <vmurta@microsoft.com>
+Date:   Thu Dec 17 14:03:48 2020 -0800
+
+    Updated default file digest algorithm to sha256
+
+commit b9d5a5b7c1e7c8acce7b3206054ac7be3e1199ee (tag: 253337)
+Author: yjqms <67753771+yjqms@users.noreply.github.com>
+Date:   Wed Dec 16 10:21:09 2020 -0800
+
+    Use SHA256 for ndisprot60's driver signing (#558)
+
+commit 802b74f21520695f1b6e04fc42580e12cc76b278 (tag: 243329)
+Author: Jesse <jesweare@microsoft.com>
+Date:   Thu Dec 3 08:56:10 2020 +0900
+
+    Fix UDP inbound reinject scenario (#551)
+
+    Modify the inbound NBL's UDP port # to that of the original outbound traffic, in order to meet the inbound filter conditions
+
+commit 28f8fc7638b9149e05a7b15ec11cc08f9e6d7e86 (tag: 193191)
+Author: Daniel Rugerio <50124185+darugeri@users.noreply.github.com>
+Date:   Thu Sep 10 11:28:09 2020 -0700
+
+    Updates to SysVAD (#527)
+
+    * Fixed build errors when disabling sideband,
+    * A note about the SysVAD sample and HLK testing.
+
+commit aaeca58c5e7b67740a603a3150db225670b42bb6 (tag: 186186)
+Author: ebadger <ebadger@users.noreply.github.com>
+Date:   Mon Aug 24 13:38:06 2020 -0700
+
+    fix bug in PackReport (#534)
+
+    Data is pointer to array of HID_DATA structure.
+    Function advances pointer as it packs the report buffer.
+    At end of process the function attempts to go back through the buffer and update the IsDataSet member.
+    What it's actually doing is writing unexpected memory locations.
+
+    Fix is to store the head of the array and move back before walking again to set the bits.
+
+commit dbadff83eed662c244d5a6fae48baa840fb543b8 (tag: 162281)
+Author: aktsuda <aktsuda@microsoft.com>
+Date:   Thu Jun 25 05:52:49 2020 +0900
+
+    Merged current inbox code except for DDKSPLIT (#474)
+
+    * Merged current inbox code except for DDKSPLIT
+    * 19H1 inbox code except for DDKSPLIT and storport_p.h
+    * Removed internal code
+
+commit 9afd93066dfd9db12f66099cf9ec44b6fd734b2d (tag: 159399)
+Author: Shantanu Gupta <shans95g@gmail.com>
+Date:   Wed Jun 17 22:17:10 2020 -0700
+
+    Updated comments for SwapChainProcessor (#522)
+
+    Update comments for SwapChainProcessor in IndirectDisplay driver sample
+
+    Co-authored-by: Shantanu Gupta <shagu@microsoft.com>
+
+commit dba4d5e89276f3a3c0b7fcd2bd70fdafcc5fe9dd (tag: 159224)
+Author: Shantanu Gupta <shans95g@gmail.com>
+Date:   Wed Jun 17 14:30:44 2020 -0700
+
+    Add multimon support to sample driver (#513)
+
+    * Update sample driver with multimon support
+    * Fix compiler warning
+
+    Co-authored-by: Shantanu Gupta <shagu@microsoft.com>
+
+commit 8832c74bd92c222b46a45e122532b009d3c74a14 (tag: 156867)
+Author: strongstrongyiwen <63120519+strongstrongyiwen@users.noreply.github.com>
+Date:   Thu Jun 11 10:26:18 2020 -0700
+
+    Changed wil nuget package linking to git submodule (#515)
+
+    Deleted link with wil nuget package, switched to git submodule instead.
+
+commit 824684c664fb8a574b2a79ca0602229c85c562af (tag: 156236, tag: 156234)
+Author: Barry Golden <bagold@microsoft.com>
+Date:   Wed Jun 10 13:53:10 2020 -0700
+
+    Updated comment text in line 1246
+
+    Updated comment text to meet bias-free communication guidance.
+
+    For more information, see https://docs.microsoft.com/style-guide/bias-free-communication.
+
+commit 5f79744859170d03e72c236ff099e21cc3e949ff
+Author: Barry Golden <bagold@microsoft.com>
+Date:   Wed Jun 10 13:49:58 2020 -0700
+
+    Updated comment in line 698
+
+    Updated comment text to meet bias-free communication guidance.
+
+    For more information, see https://docs.microsoft.com/style-guide/bias-free-communication.
+
+commit 325b87cf839b1b5c0ff46bb8c201612cfaedc561
+Author: strongstrongyiwen <63120519+strongstrongyiwen@users.noreply.github.com>
+Date:   Thu May 21 18:59:34 2020 -0700
+
+    Fixed tab character issue in avstream/avssamp/video.cpp and added PnpLockdown flag to inx file (#503)
+
+    * Fix:
+     - Fix typo of ExAllocatePoolZero().
+     - Add PnpLockdown flag to INX file.
+
+    * Fixed tab character issue and added PnpLockdown flag to inx file
+
+    Co-authored-by: Joel Corley <jocorley@microsoft.com>
+
+commit bf0b0fe11d8b301cdfcc6d13f12a778cdd1c14b5 (tag: 147237)
+Author: Daniel Rugerio <50124185+darugeri@users.noreply.github.com>
+Date:   Wed May 13 16:23:40 2020 -0700
+
+    Update to SysVAD, Wave test and public sample of KS Position Test (#496)
+
+    * Update to Wave test and public sample of KS Position test.
+    * Update to the SysVAD audio driver sample.
+    * Add the PnpLockDown property.
+
+commit b78312cfe7990524cb46a1453ad2e013586857a0
+Author: Chao0000 <63084652+Chao0000@users.noreply.github.com>
+Date:   Mon May 11 06:33:40 2020 +0900
+
+    Update README.md (#493)
+
+    I added statements about how to change Platform Toolset of the projects in Step 2-i.
+    When I used VS2017 and VS2019 to try to build the projects, Driver Files wasn't shown in the menu.
+    So I think it is necessary to add these steps for people who download these good sample projects.
+
+commit 8fad7cb62e124022815a5769b25456fb7d4eed4b (tag: 142846)
+Merge: 5408da62 b1848123
+Author: NateD-MSFT <34494373+NateD-MSFT@users.noreply.github.com>
+Date:   Wed Apr 29 16:25:00 2020 -0700
+
+    Merge pull request #478 from xNephe/deprecatedAPIFix
+
+    WDI sample: Use ExAllocatePool2 instead of ExAllocatePoolWithTag
+
+commit bee1573a5ba8d82f089e0dcb2b8113b12d4b60ba
+Merge: 8fb512ac 5408da62
+Author: Shantanu Gupta <shans95g@gmail.com>
+Date:   Wed Apr 29 10:39:01 2020 -0700
+
+    Merge with microsoft/master
+
+    Merge with upstream
+
+commit 5408da620e6039f06de4bc68383ca29bcc209ed2
+Author: Joel Corley <33107728+JoelCorley@users.noreply.github.com>
+Date:   Thu Apr 23 15:16:27 2020 -0700
+
+    Avshws.sys fails to build clean. Typo. (#484)
+
+    - Fix typo of ExAllocatePoolZero().
+    - Add PnpLockdown flag to INX file.
+
+commit b8af5d7344b4ba070c9dd5e568a525b5e28d8b7d (tag: 139639)
+Author: zlockard <zac.lockard@gmail.com>
+Date:   Mon Apr 20 09:58:53 2020 -0700
+
+    Update simdeviceumdf
+
+    Update INF to remove deprecated UMDF 1.* directive
+
+commit 7da5beaee303cca4d82826b983d984606e63e110 (tag: 137243)
+Merge: 13c61cee ff2b0e39
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Fri Apr 10 12:55:21 2020 -0700
+
+    Add CA defect to SDV-FailDriver-WDM sample
+
+    Add a simple C28171 code analysis for drivers violation to the SDV-FailDriver-WDM sample, so that we can use it to validate CA for drivers is working correctly.
+
+commit ff2b0e3943803e45fdc275eb01139bc6b84e8544
+Author: NateD-MSFT <34494373+NateD-MSFT@users.noreply.github.com>
+Date:   Thu Apr 9 19:48:02 2020 -0700
+
+    Add CA defect to SDV-FailDriver-WDM sample
+
+    Add a simple C28171 code analysis for drivers violation to the SDV-FailDriver-WDM sample, so that we can use it to validate CA for drivers is working correctly.
+
+commit 13c61ceeb3f7da66a2b57730d12d14eb7463c46a (tag: 136198, tag: 136197, tag: 136196, tag: 136195, tag: 136194)
+Merge: dd4fad49 27c8560b
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Tue Apr 7 16:17:44 2020 -0700
+
+    Update all the AvStream samples for Vibranium
+
+    Update all the AvStream samples for Vibranium.
+
+commit 27c8560ba860165db5a173b37591271397d20bb7
+Merge: 65682387 60dab78e
+Author: Joel Corley <jocorley@microsoft.com>
+Date:   Tue Apr 7 00:43:16 2020 -0700
+
+    Merge branch 'UpdateVibraniumAvstream' of https://github.com/JoelCorley/Windows-driver-samples into UpdateVibraniumAvstream
+
+commit 6568238719a3fe6d317e1d4a13131f5d2ca0234b
+Author: Joel Corley <jocorley@microsoft.com>
+Date:   Tue Apr 7 00:42:28 2020 -0700
+
+    Fix typos, etc. to address review comments.
+
+commit 60dab78e2549a164e5558b2169a900f24ac41434
+Author: Yiwen Jiang <yiwjiang@microsoft.com>
+Date:   Mon Apr 6 11:05:29 2020 -0700
+
+    Replaced ExAllocatePoolWithTag with ExAllocatePoolZero in avsstream samples
+
+commit 43e90d07b44b756ce084a31ac3ca154857bb64d8
+Author: Joel Corley <jocorley@microsoft.com>
+Date:   Fri Apr 3 14:39:08 2020 -0700
+
+    Undo unnecessary changes to project file.
+
+commit b1848123d234530731ac009b82e8eb3bccb04148
+Author: Guillaume Hetier <guhetier@microsoft.com>
+Date:   Fri Apr 3 10:26:46 2020 -0700
+
+    Fix WDI sample build
+
+commit 2dc195e508f841d3393e031123abeecefa30b6e4
+Author: Guillaume Hetier <guhetier@microsoft.com>
+Date:   Thu Apr 2 11:50:18 2020 -0700
+
+    Fix deprecated pool allocation function
+
+commit dd4fad494b996f5729be98e0271ea74ef1a5d2ad (tag: 132485)
+Merge: 9b58d9a9 3ba36f46
+Author: Adonais Romero Gonzalez <adonais.neoadonis@gmail.com>
+Date:   Thu Mar 26 11:18:09 2020 -0700
+
+    Add Indirect Display Driver sample (#459)
+
+    * Add Indirect Display Driver sample
+
+    * minor cleanup
+
+    * Update sample notification email
+
+    * Update inf with Pnplockdown=1
+
+    Co-authored-by: Shantanu Gupta <shagu@microsoft.com>
+
+commit 3ba36f46f9ff71b33776f8e6acef52c44b9e0a35
+Author: Shantanu Gupta <shagu@microsoft.com>
+Date:   Thu Mar 26 11:15:21 2020 -0700
+
+    fix casing
+
+commit 9b58d9a908a45a55452b87d001789d27fbf0e8ee (tag: 131800)
+Author: andylsn <andylsn93@gmail.com>
+Date:   Tue Mar 24 16:38:30 2020 -0700
+
+    Rewrite the service for the best practice of Win32 Services InteractiÅc (#472)
+
+    * Rewrite the service for the best practice of Win32 Services Interacting with Devices
+
+    * Rewrite the service using pure WIN32 APIs
+
+    * Support multiple device interfaces
+
+    * Add WINAPI decoration to notification callbacks to avoid AV issue
+
+    * A small fix
+
+    * Implement OSRFX2 samples for AddTrigger syntax and service lifetime control
+
+    * Add comment on AddTrigger syntax
+
+    Co-authored-by: Shunni Li <shunnli@microsoft.com>
+
+    * Update inx file (#2)
+
+    Co-authored-by: Shunni Li <shunnli@microsoft.com>
+
+    * Add PnpLockdown in INX
+
+    * Update osrfx2_DCHU_base.inx
+
+    Co-authored-by: Shunni Li <shunnli@microsoft.com>
+
+commit 80b888da49f0f07abe89098e730f4b67acfcc75e
+Author: Shantanu Gupta <shagu@microsoft.com>
+Date:   Tue Mar 24 10:05:34 2020 -0700
+
+    Update inf with Pnplockdown=1
+
+commit 1808ee6cdad165bc29c50937d11ba51ceeded35d
+Author: Shantanu Gupta <shagu@microsoft.com>
+Date:   Thu Feb 20 13:34:44 2020 -0800
+
+    Update sample notification email
+
+commit d7e9cd8ee8aedbaea3bd715f1ddf2fa3bb0168af
+Author: Shantanu Gupta <shagu@microsoft.com>
+Date:   Wed Feb 19 14:43:15 2020 -0800
+
+    minor cleanup
+
+commit d43983a97c79e5e7eafb4948fd2678f5e709838b
+Author: Shantanu Gupta <shagu@microsoft.com>
+Date:   Wed Feb 19 14:23:56 2020 -0800
+
+    Add Indirect Display Driver sample
+
+commit e787e936941ebdd25c5d4e5758fe52b8e2b8d4e5
+Author: Joel Corley <jocorley@microsoft.com>
+Date:   Tue Feb 11 15:56:59 2020 -0800
+
+    Revert the accidential overwriting of README.MD files.
+
+commit 2a945024ac070bd5d7bef09cb3cbef67757a2a44
+Author: Joel Corley <jocorley@microsoft.com>
+Date:   Tue Jan 21 17:45:06 2020 -0800
+
+    Add missing nuget package file.
+
+commit 1d2865d33a2815c31a93bf9b352b94b096f72f57
+Author: Joel Corley <jocorley@microsoft.com>
+Date:   Tue Jan 21 15:47:24 2020 -0800
+
+    Update all the AvStream samples for Vibranium.
+
+commit 8fb512ac674df5ba129a69906d450f2a1361136d (tag: 112654)
+Author: Serge Gautherie <32623169+SergeGautherie@users.noreply.github.com>
+Date:   Wed Jan 8 23:06:30 2020 +0100
+
+    SFloppy: RtlStringCbPrintf?() need bytes, not chars (#442)
+
+commit 743b084dbc5b5ff18a35898691d707dcb428f031 (tag: 112648)
+Author: Dominic Letz <dominic@diode.io>
+Date:   Wed Jan 8 22:59:46 2020 +0100
+
+    Removed repeated sentence (#449)
+
+commit 7d02cdb5827d646af591040b312eac75caae5e06 (tag: 112269, tag: 112268, tag: 112267, tag: 112266, tag: 112265)
+Author: Barry Golden <bagold@microsoft.com>
+Date:   Tue Jan 7 07:22:56 2020 -0800
+
+    Update README.md (#450)
+
+commit a919a4e8c3e551c8677bc465b5067065de9799e5 (tag: 112023, tag: 112022, tag: 112021, tag: 112020, tag: 112019, tag: 112018, tag: 112017, tag: 112016, tag: 112015, tag: 112014, tag: 112013, tag: 112012, tag: 112011, tag: 112010, tag: 112009, tag: 112008, tag: 112007, tag: 112006)
+Author: Barry Golden <bagold@microsoft.com>
+Date:   Mon Jan 6 14:41:24 2020 -0800
+
+    Updated links to https (#448)
+
+commit 24000457442864d9c49ca4cbcd8794db17073d8c (tag: 111986)
+Author: Barry Golden <bagold@microsoft.com>
+Date:   Mon Jan 6 13:20:45 2020 -0800
+
+    Update README.md
+
+commit 834c1039f530da9564ea57584b0dcf6ab69edb7f (tag: 111600)
+Author: Barry Golden <bagold@microsoft.com>
+Date:   Fri Jan 3 12:40:08 2020 -0800
+
+    Update README.md
+
+commit 4726649c99a9fde08cb065818dc3d56901b8ef19
+Author: Barry Golden <bagold@microsoft.com>
+Date:   Wed Dec 11 10:36:14 2019 -0800
+
+    Update readme.md
+
+commit 950e7a093275f5056fc98211efe47b98f7b3471e
+Author: Barry Golden <bagold@microsoft.com>
+Date:   Wed Dec 11 05:56:20 2019 -0800
+
+    Update README.md

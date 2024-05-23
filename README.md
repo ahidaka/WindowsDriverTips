@@ -21,4 +21,14 @@ In summary, here are some important points.
 - Utilize driver store
 - When updating the driver, select "Add" instead of "Delete" if possible.
 
+<br/>
+
+### [Windows Driver Samples Log](windows-driver-samples-log.txt)
+
+[windows-driver-samples-log.txt](windows-driver-samples-log.txt)
+
+[Windows-driver-samples (https://github.com/microsoft/Windows-driver-samples)](https://github.com/microsoft/Windows-driver-samples) is a sample with useful information and a record of changes.
+However, no useful method has been found to comprehensively search for past changes.
+To improve my usability, I have compiled a list of logs from 2000 to the present.
+
 #### [Japanese version](README_ja.md)
